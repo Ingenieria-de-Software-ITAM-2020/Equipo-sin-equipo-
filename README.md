@@ -10,3 +10,12 @@
 * Dar de baja una materia inscrita
 * Meter materias que se empalman
 * Meter materias sin prerequisito
+
+
+Cosas para planear el presupuesto
+
+* tiempo que va a tomar
+* calidad de los entregables
+* número de miembros del equipo
+* cantidad de features
+* experiencia de los miembros
