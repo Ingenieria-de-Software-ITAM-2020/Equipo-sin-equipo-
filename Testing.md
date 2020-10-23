@@ -5,7 +5,7 @@
 ## 4. TEST ITEMS
 ## 5. SOFTWARE RISK ISSUES
 ## 6. FEATURES TO BE TESTED
-### List od features to be tested:
+### List of features to be tested:
 
 * Inscribir una materia
 * Usuario se desconecta sin acabar el proceso
