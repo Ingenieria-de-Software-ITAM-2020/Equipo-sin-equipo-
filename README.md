@@ -1,6 +1,7 @@
 # Equipo-sin-equipo-
 Ejemplo outline
 
+https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Testing.md#6-features-to-be-tested
 
 Features to be tested
 
