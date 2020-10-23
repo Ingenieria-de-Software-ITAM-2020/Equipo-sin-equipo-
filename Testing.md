@@ -1,4 +1,4 @@
-# SAMPLE MASTER TEST PLAN
+# Sample Master Test Plan
 ## 1. Test Plan Identifier
 ## 2. References
 ## 3. Introduction
