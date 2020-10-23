@@ -1,27 +1,27 @@
 # SAMPLE MASTER TEST PLAN
-## 1. TEST PLAN IDENTIFIER
-## 2. REFERENCES
-## 3. INTRODUCTION
-## 4. TEST ITEMS
-## 5. SOFTWARE RISK ISSUES
-## 6. FEATURES TO BE TESTED
+## 1. Test Plan Identifier
+## 2. References
+## 3. Introduction
+## 4. Test Items
+## 5. Software Risk Issues
+## 6. Features to be Tested
 ### List of features to be tested:
-
 * Inscribir una materia
 * Usuario se desconecta sin acabar el proceso
 * Log in 
 * Dar de baja una materia inscrita
 * Meter materias que se empalman
 * Meter materias sin prerequisito
-## 7. FEATURES NOT TO BE TESTED
-## 8. APPROACH
-## 9. ITEM PASS/FAIL CRITERIA
-## 10. SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
-## 11. TEST DELIVERABLES
-## 12. REMAINING TEST TASKS
-## 13. ENVIRONMENTAL NEEDS
-## 14. STAFFING AND TRAINING NEEDS
-## 15. RESPONSIBILITIES
-## 16. SCHEDULE
-## 17. PLANNING RISKS AND CONTINGENCIES
-## 18. APPROVALS
+## 7. Features not to be Tested
+## 8. Approach
+## 9. Item Pass/Fail Criteria
+## 10. Suspension Criteria and Resumption Requirements
+## 11. Test Deliverables
+## 12. Remaining Test Tasks
+## 13. Environmental Needs
+## 14. Staffing and Training Needs
+## 15. Responsibilities
+## 16. Schedule
+## 17. Planning Risks and Contingencies
+## 18. Approvals
+## 19. Glossary
