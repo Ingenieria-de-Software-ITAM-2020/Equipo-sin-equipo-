@@ -6,3 +6,6 @@ Features to be tested
 
 * a
 * b
+* c
+* d
+* e
