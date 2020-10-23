@@ -3,6 +3,8 @@
 ## 2. REFERENCES
 ## 3. INTRODUCTION
 ## 4. TEST ITEMS
+## 5. SOFTWARE RISK ISSUES
+## 6. FEATURES TO BE TESTED
 Features to be tested
 
 * Inscribir una materia
@@ -11,8 +13,6 @@ Features to be tested
 * Dar de baja una materia inscrita
 * Meter materias que se empalman
 * Meter materias sin prerequisito
-## 5. SOFTWARE RISK ISSUES
-## 6. FEATURES TO BE TESTED
 ## 7. FEATURES NOT TO BE TESTED
 ## 8. APPROACH
 ## 9. ITEM PASS/FAIL CRITERIA
