@@ -3,6 +3,14 @@
 ## 2. REFERENCES
 ## 3. INTRODUCTION
 ## 4. TEST ITEMS
+Features to be tested
+
+* Inscribir una materia
+* Usuario se desconecta sin acabar el proceso
+* Log in 
+* Dar de baja una materia inscrita
+* Meter materias que se empalman
+* Meter materias sin prerequisito
 ## 5. SOFTWARE RISK ISSUES
 ## 6. FEATURES TO BE TESTED
 ## 7. FEATURES NOT TO BE TESTED
