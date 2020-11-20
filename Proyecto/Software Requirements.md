@@ -5,49 +5,49 @@
 #### Version 1.0 approved
 #### Preparado por Bernardo Paniagua, Ricardo Alonso y Ricardo Edward
 #### Equipo sin equipo
-#### 01/30/20
+#### 11/27/20
 
 
 ## Tabla de Contendios
-**Tabla de Contendios**
+[**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#tabla-de-contendios)
 
-**Historial de Revisión**
-1. **Introducción**
-    1. Propósito
-    2. Convenciones del documento
-    3. Audiencia enfocada y sugerencias de lectura
-    4. Alcance del producto
-    5. Referencias
-2. **Descripción general**
-    1. Perspectiva del producto
-    2. Funciones del producto
-    3. Clases de usuario y características
-    4. Entorno operativo
-    5. Restricciones de diseño e implementación
-    6. Documentación de usuario
-    7. Suposiciones y dependencias
-3. **Requerimientos de interfaz externa**
-    1. Interfaces de usuario
-    2. Interfaces de hardware
-    3. Interfaces de software
-    4. Interfaces de comunicación
-4. **Funcionalidades del sistema**
-    1. System Feature 1
-    2. System Feature 2
-    3. System Feature 3
-5. **Otros requerimientos no funcionales**
-    1. Requerimientos de rendimiento
-    2. Requerimientos de protección
-    3. Requerimientos de seguridad
-    4. Atributos de calidad de software
-    5. Reglas de Negocio
-6. **Otros requerimientos**
+[**Historial de Revisión**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#historial-de-revisi%C3%B3n)
+1. [**Introducción**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#1-introducci%C3%B3n)
+    1. [Propósito](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#11-prop%C3%B3sito)
+    2. [Convenciones del documento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#12-convenciones-del-documento)
+    3. [Audiencia enfocada y sugerencias de lectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#13-audiencia-enfocada-y-sugerencias-de-lectura)
+    4. [Alcance del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#14-alcance-del-producto)
+    5. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#15-referencias)
+2. [**Descripción general**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#2-descripci%C3%B3n-general)
+    1. [Perspectiva del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#21-perspectiva-del-producto)
+    2. [Funciones del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#22-funciones-del-producto)
+    3. [Clases de usuario y características](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#23-clases-de-usuario-y-caracter%C3%ADsticas)
+    4. [Entorno operativo](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#24-entorno-operativo)
+    5. [Restricciones de diseño e implementación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#25-restricciones-de-dise%C3%B1o-e-implementaci%C3%B3n)
+    6. [Documentación de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#26-documentaci%C3%B3n-de-usuario)
+    7. [Suposiciones y dependencias(https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#27-suposiciones-y-dependencias)
+3. [**Requerimientos de interfaz externa**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#3-requerimientos-de-interfaz-externa)
+    1. [Interfaces de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#31-interfaces-de-usuario)
+    2. [Interfaces de hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#32-interfaces-de-hardware)
+    3. [Interfaces de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#33-interfaces-de-software)
+    4. [Interfaces de comunicación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#34-interfaces-de-comunicaci%C3%B3n)
+4. [**Funcionalidades del sistema**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#4-funcionalidades-del-sistema)
+    1. [System Feature 1](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#41-system-feature-1)
+    2. [System Feature 2](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#42-system-feature-2)
+    3. [System Feature 3](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#43-system-feature-3)
+5. [**Otros requerimientos no funcionales**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#5-otros-requerimientos-no-funcionales)
+    1. [Requerimientos de rendimiento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#51-requerimientos-de-rendimiento)
+    2. [Requerimientos de protección](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#52-requerimientos-de-protecci%C3%B3n)
+    3. [Requerimientos de seguridad](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#53-requerimientos-de-seguridad)
+    4. [Atributos de calidad de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#54-atributos-de-calidad-de-software)
+    5. [Reglas de Negocio](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#55-reglas-de-negocio)
+6. [**Otros requerimientos**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#6-otros-requerimientos)
 
-**Apéndice A: Glosario**
+[**Apéndice A: Glosario**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-a-glosario)
 
-**Apéndice B: Modelos de análisis**
+[**Apéndice B: Modelos de análisis**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-b-modelos-de-an%C3%A1lisis)
 
-**Apéndice C: Lista por determinar**
+[**Apéndice C: Lista por determinar**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-c-lista-por-determinar)
 
 ## Historial de Revisión
 
@@ -73,7 +73,7 @@ Provide a short description of the software being specified and its purpose, inc
 List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
 
 ## **2. Descripción general**
-### 2.1. Perspectiva del producto
+### 2.1. Perspectiva del producto
 Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
 
 ### 2.2. Funciones del producto
