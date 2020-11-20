@@ -1,14 +1,12 @@
 *Al menos 3 casos de uso por requerimiento*
-# Software Requirements Specification
-### para
-# Project
+# *Software Requirements Specification*<br>para<br>*Project*
 #### Version 1.0 approved
 #### Preparado por Bernardo Paniagua, Ricardo Alonso y Ricardo Edward
 #### Equipo sin equipo
 #### 11/27/20
 
 
-## Tabla de Contendios
+## **Tabla de Contendios**
 [**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#tabla-de-contendios)
 
 [**Historial de Revisión**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#historial-de-revisi%C3%B3n)
