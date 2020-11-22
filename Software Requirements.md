@@ -7,45 +7,46 @@
 
 
 ## **Tabla de Contendios**
-[**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#tabla-de-contendios)
+[**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#tabla-de-contendios)
 
-[**Historial de Revisión**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#historial-de-revisi%C3%B3n)
-1. [**Introducción**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#1-introducci%C3%B3n)
-    1. [Propósito](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#11-prop%C3%B3sito)
-    2. [Convenciones del documento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#12-convenciones-del-documento)
-    3. [Audiencia enfocada y sugerencias de lectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#13-audiencia-enfocada-y-sugerencias-de-lectura)
-    4. [Alcance del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#14-alcance-del-producto)
-    5. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#15-referencias)
-2. [**Descripción general**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#2-descripci%C3%B3n-general)
-    1. [Perspectiva del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#21-perspectiva-del-producto)
-    2. [Funciones del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#22-funciones-del-producto)
-    3. [Clases de usuario y características](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#23-clases-de-usuario-y-caracter%C3%ADsticas)
-    4. [Entorno operativo](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#24-entorno-operativo)
-    5. [Restricciones de diseño e implementación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#25-restricciones-de-dise%C3%B1o-e-implementaci%C3%B3n)
-    6. [Documentación de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#26-documentaci%C3%B3n-de-usuario)
-    7. [Suposiciones y dependencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#27-suposiciones-y-dependencias)
-3. [**Requerimientos de interfaz externa**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#3-requerimientos-de-interfaz-externa)
-    1. [Interfaces de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#31-interfaces-de-usuario)
-    2. [Interfaces de hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#32-interfaces-de-hardware)
-    3. [Interfaces de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#33-interfaces-de-software)
-    4. [Interfaces de comunicación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#34-interfaces-de-comunicaci%C3%B3n)
-4. [**Funcionalidades del sistema**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#4-funcionalidades-del-sistema)
-    1. [System Feature 1](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#41-system-feature-1)
-    2. [System Feature 2](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#42-system-feature-2)
-    3. [System Feature 3](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#43-system-feature-3)
-5. [**Otros requerimientos no funcionales**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#5-otros-requerimientos-no-funcionales)
-    1. [Requerimientos de rendimiento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#51-requerimientos-de-rendimiento)
-    2. [Requerimientos de protección](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#52-requerimientos-de-protecci%C3%B3n)
-    3. [Requerimientos de seguridad](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#53-requerimientos-de-seguridad)
-    4. [Atributos de calidad de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#54-atributos-de-calidad-de-software)
-    5. [Reglas de Negocio](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#55-reglas-de-negocio)
-6. [**Otros requerimientos**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#6-otros-requerimientos)
+[**Historial de Revisión**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#historial-de-revisi%C3%B3n)
+1. [**Introducción**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#1-introducci%C3%B3n)
+    1. [Propósito](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#11-prop%C3%B3sito)
+    2. [Convenciones del documento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#12-convenciones-del-documento)
+    3. [Audiencia enfocada y sugerencias de lectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#13-audiencia-enfocada-y-sugerencias-de-lectura)
+    4. [Alcance del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#14-alcance-del-producto)
+    5. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#15-referencias)
+2. [**Descripción general**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#2-descripci%C3%B3n-general)
+    1. [Perspectiva del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#21-perspectiva-del-producto)
+    2. [Funciones del producto](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#22-funciones-del-producto)
+    3. [Clases de usuario y características](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#23-clases-de-usuario-y-caracter%C3%ADsticas)
+    4. [Entorno operativo](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#24-entorno-operativo)
+    5. [Restricciones de diseño e implementación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#25-restricciones-de-dise%C3%B1o-e-implementaci%C3%B3n)
+    6. [Documentación de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#26-documentaci%C3%B3n-de-usuario)
+    7. [Suposiciones y dependencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#27-suposiciones-y-dependencias)
+3. [**Requerimientos de interfaz externa**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#3-requerimientos-de-interfaz-externa)
+    1. [Interfaces de usuario](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#31-interfaces-de-usuario)
+    2. [Interfaces de hardware](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#32-interfaces-de-hardware)
+    3. [Interfaces de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#33-interfaces-de-software)
+    4. [Interfaces de comunicación](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#34-interfaces-de-comunicaci%C3%B3n)
+4. [**Funcionalidades del sistema**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#4-funcionalidades-del-sistema)
+    1. [Funcionalidad 1](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#41-el-sistema-utiliza-la-cuenta-del-itam-para-autentificar-a-lxs-usuarixs)
+    2. [Funcionalidad 2](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#42-el-sistema-crea-una-sala-por-cada-clase)
+    3. [Funcionalidad 3](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#43-lxs-alumnxs-pueden-crear-salas-personalizadas-con-otrxs-alumnxs-yo-profesorxs)
+    4.  [Funcionalidad 4](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#44-un-alumnx-puede-solicitar-un-chat-con-el-personal-administrativo)
+5. [**Otros requerimientos no funcionales**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#5-otros-requerimientos-no-funcionales)
+    1. [Requerimientos de rendimiento](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#51-requerimientos-de-rendimiento)
+    2. [Requerimientos de protección](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#52-requerimientos-de-protecci%C3%B3n)
+    3. [Requerimientos de seguridad](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#53-requerimientos-de-seguridad)
+    4. [Atributos de calidad de software](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#54-atributos-de-calidad-de-software)
+    5. [Reglas de Negocio](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#55-reglas-de-negocio)
+6. [**Otros requerimientos**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#6-otros-requerimientos)
 
-[**Apéndice A: Glosario**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-a-glosario)
+[**Apéndice A: Glosario**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#ap%C3%A9ndice-a-glosario)
 
-[**Apéndice B: Modelos de análisis**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-b-modelos-de-an%C3%A1lisis)
+[**Apéndice B: Modelos de análisis**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#ap%C3%A9ndice-b-modelos-de-an%C3%A1lisis)
 
-[**Apéndice C: Lista por determinar**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Software%20Requirements.md#ap%C3%A9ndice-c-lista-por-determinar)
+[**Apéndice C: Lista por determinar**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Software%20Requirements.md#ap%C3%A9ndice-c-lista-por-determinar)
 
 ## Historial de Revisión
 
@@ -59,7 +60,7 @@
 El propósito de este documento es describir los requerimientos de software para un sistema de comunicación que sirva a los alumnos, profesores y personal administrativo del Instituto Tecnológico Autónomo de México, que pueda funcionar de manera autónoma basada en el servidor del plantel educativo.
 
 ### 1.2. Convenciones del documento
-Las funcionalidades están ordenadas de manera general por prioridad. 
+Las funcionalidades están ordenadas de manera general por prioridad.
 REQ-X significa requerimiento número X.
 
 ### 1.3. Audiencia enfocada y sugerencias de lectura
@@ -126,14 +127,14 @@ Se utilizará el correo institucional para acceder al software, para que solo lo
 #### 4.1.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de usuarios del ITAM
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: 
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2:
 
 
 ### 4.2. El sistema crea una sala por cada clase
 
 #### 4.2.1 Descripción y prioridad
 
-Al tener las listas definitivas, el sistema crea una sala para cada materia que el alumnx tenga inscrita. Antes de iniciar un nuevo semestre, estos grupos se cierran y se borran del sistema. Es de prioridad media, ya que 
+Al tener las listas definitivas, el sistema crea una sala para cada materia que el alumnx tenga inscrita. Antes de iniciar un nuevo semestre, estos grupos se cierran y se borran del sistema. Es de prioridad media, ya que
 
 #### 4.2.2 Secuencias de respuesta
 
@@ -150,7 +151,7 @@ Al tener las listas definitivas, el sistema crea una sala para cada materia que 
 
 #### 4.3.1 Descripción y prioridad
 
-Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, para mejorar la comunicación entre equipos, alumnxs y maestrxs. 
+Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, para mejorar la comunicación entre equipos, alumnxs y maestrxs.
 
 #### 4.3.2 Secuencias de respuesta
 #### 4.3.3 Requerimientos
