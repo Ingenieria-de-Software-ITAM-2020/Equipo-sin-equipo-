@@ -63,10 +63,10 @@ Las funcionalidades están ordenadas de manera general por prioridad.
 REQ-X significa requerimiento número X.
 
 ### 1.3. Audiencia enfocada y sugerencias de lectura
-Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.
+Este documento sera usado por los desarrolladores de este software para llevar a cabo la programación correcta de las funcionalidades descritas, para esto es importante leer todo el documento. Además, se espera que el personal directivo y administrativo del ITAM, particularmente en el departamiento de ingeniería en computación para avalar que las funcionalidades cumplan con el propósito esperado; para estos es de interés particular el apartado 4 de este documento.
 
 ### 1.4. Alcance del producto
-Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.
+Se busca que este software facilite la comunicación entre los distintos integrantes del plantel educativo del ITAM, permitiendo que los alumnos inscritos en esta institución se comuniquen entré sí para facilitar desarrollo de trabajos y estudio, y además permitir a estos entrar en contacto de manera fácil con sus profesores y con el personal administrativo de la universidad.
 
 ### 1.5. Referencias
 List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
