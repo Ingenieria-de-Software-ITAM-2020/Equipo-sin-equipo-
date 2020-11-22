@@ -95,12 +95,14 @@ List any assumed factors (as opposed to known facts) that could affect the requi
 
 ## **3. Requerimientos de interfaz externa**
 ### 3.1. Interfaces de usuario
-Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.
+La pantalla inicial será un log-in, para iniciar sesión dentro del el chat, esta interfaz sera sencilla, sólo tendrá dos barras para ingresar texto (usuario y contraseña) y un botón para acceder; en caso de ingresar datos erroneos se le inforamará al usuario. Dentro de la aplicación se contará con un menú donde se listarán los chats en los que se es participante, además de una barra de búsqueda para buscar otros usuarios y algunas opciones de configuración. Finalemente, cada chat constará de una barra de texto para escribir mensaje y un botón de enviar, además de algunas opciones para enviar otro tipo de archivos como imágenes o pdfs. De manera general, cada página tendra una barra superior que informará al usuario dondé se ecneuntra, el logo del itam y un botón para regresar.
 
 ### 3.2. Interfaces de hardware
-Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
+Esta aplicación web deberá ser lo mas universal posible, para permitir su acceso a todos los usuarios del ITAM desde la mayor parte de dispositivos posibles, desde un navegador web, por lo que se debe asegurar que todas las funciones son compatibles con las últimas versiones de la mayoría de los navegadores.
 
 ### 3.3. Interfaces de software
+La base de datos de los usuarios debe estar conectada al la base de alumnos del ITAM, para usar sus datos para la autenticación de los usuarios, además esta aplicación debe ser accesible desde la página web del ITAM y de sus plataformas para alumnos.
+
 Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
 
 ### 3.4. Interfaces de comunicación
