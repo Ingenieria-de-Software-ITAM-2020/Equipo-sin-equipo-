@@ -109,21 +109,19 @@ Describe the requirements associated with any communications functions required 
 ## **4. Funcionalidades del sistema**
 *(This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.)*
 
-### 4.1. System Feature 1
-*(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
+### 4.1. El sistema utiliza la cuenta del ITAM para autentificar a lxs usuarixs
 
 #### 4.1.1 Descripción y prioridad
-Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).
+
+Se utilizará el correo institucional para acceder al software, para que solo los miembros de la comunidad ITAM tengan acceso a éste. Tiene prioridad alta, ya que se debe garantizar la confidencialidad y privacidad de las salas de chat.
 
 #### 4.1.2 Secuencias de respuesta
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+
 
 #### 4.1.3 Requerimientos
-Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
 
-*(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
-<br>*REQ-1:*
-<br>*REQ-2:*
+
+
 
 ### 4.2. System Feature 2
 #### 4.2.1 Descripción y prioridad
@@ -131,10 +129,17 @@ Itemize the detailed functional requirements associated with this feature. These
 #### 4.2.3 Requerimientos
 
 ### 4.3. System Feature 3
+*(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
 #### 4.3.1 Descripción y prioridad
+Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).
 #### 4.3.2 Secuencias de respuesta
+List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
 #### 4.3.3 Requerimientos
+Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
 
+*(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
+<br>*REQ-1:*
+<br>*REQ-2:*
 ## **5. Otros requerimientos no funcionales**
 ### 5.1. Requerimientos de rendimiento
 If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
