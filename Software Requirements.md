@@ -117,24 +117,66 @@ Se utilizará el correo institucional para acceder al software, para que solo lo
 
 #### 4.1.2 Secuencias de respuesta
 
+* Al entrar al sistema, se pide el correo institucional y la contraseña
+* Si son correctos, entra a la página principal
+* En caso contrario, dar un mensaje de error
 
 #### 4.1.3 Requerimientos
 
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de usuarios del ITAM
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: 
 
 
+### 4.2. El sistema crea una sala por cada clase
 
-### 4.2. System Feature 2
 #### 4.2.1 Descripción y prioridad
+
+Al tener las listas definitivas, el sistema crea una sala para cada materia que el alumnx tenga inscrita. Antes de iniciar un nuevo semestre, estos grupos se cierran y se borran del sistema. Es de prioridad media, ya que 
+
 #### 4.2.2 Secuencias de respuesta
+
+* El alumnx hace su horario
+* Cuando se tienen las listas definitivas, el sistema crea una sala por cada grupo
+* El sistema añade a cada sala todxs lxs alumnxs inscritos en ese grupo
+* Cuando se entregan calificaciones, el sistema elimina la sala
+
 #### 4.2.3 Requerimientos
 
-### 4.3. System Feature 3
-*(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
+
+
+### 4.3. Lxs alumnxs pueden crear salas personalizadas con otrxs alumnxs y/o profesorxs
+
 #### 4.3.1 Descripción y prioridad
-Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).
+
+
+
 #### 4.3.2 Secuencias de respuesta
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
 #### 4.3.3 Requerimientos
+
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1:
+
+### 4.4. Un alumnx puede solicitar un chat con el personal administrativo
+
+#### 4.4.1 Descripción y prioridad
+
+baja
+
+#### 4.4.2 Secuencias de respuesta
+List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+#### 4.4.3 Requerimientos
+Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
+
+*(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
+<br>*REQ-1:*
+<br>*REQ-2:*
+
+### 4.4. System Feature 5
+*(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
+#### 4.4.1 Descripción y prioridad
+Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).
+#### 4.4.2 Secuencias de respuesta
+List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+#### 4.4.3 Requerimientos
 Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
 
 *(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
