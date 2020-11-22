@@ -137,19 +137,23 @@ Itemize the detailed functional requirements associated with this feature. These
 
 ## **5. Otros requerimientos no funcionales**
 ### 5.1. Requerimientos de rendimiento
-If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
+El software debe ser capaz de estar funcional y servir a los usuarios de manera contínua durante el transcurso de todo el día, a través del año, con particular importancia mantener disponibilidad durante los horarios de clases, y en temporadas del año correspondientes a los exámenes finales e inscripción. El software debe ser capaz de manejar bajo el peso concurrente de multiples alumnos que usen el servicio, siendo capas de manejar a al menos 3000 usuarios concurrentemente, asegurando así su disponibilidad en los momentos mencionados de alto tráfico, donde un porcentaje considerable de las personas involucradas en el itam pueden requerir comunicarse.
 
 ### 5.2. Requerimientos de protección
 Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.
 
 ### 5.3. Requerimientos de seguridad
-Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
+Se debe asegurar que el software solo sea utilizable por los alumnos, profesores, y personal administrativo del itam, contando por identificación preexistente que asigna el Instituto Tecnológico Autónomo de México. De este modo, se espera que el software sea capaz de autentificar el usuario con su cuenta correo del ITAM y correo correspondiente de manera segura encriptada. Además, el contenido de los chats deben guardarse de manera segura de manera que solo los usuarios en cada chat o cuentas asignadas con capacidades de moderación puedan ver su contenido, y se debe presentar de manera clara a los usuarios quién es capaz de ver los mensajes que manda.
 
 ### 5.4. Atributos de calidad de software
-Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.
+De las caracteristicas de calidad del software, las más relevantes, que afectan de mayor manera a las metas del software, son, en orden decreciente:
+* Disponibilidad: Este software debe ser idealmente capaz de ser usado por cualquier usuario en cualquier momento, irrespectivo de dia, hora o nivel de tráfico
+* Usabilidad: El software debe ser fácilmente comprehensible para los usuarios, tal que la comunicación entre los usuarios se facilite, con un interfaz que permita crear y entrar a chats de manera sencilla, quedando claro con quien se chatea.
+* Portabilidad: El chat debe ser usable desde la mayoría de navegadores web que son usados por los usuarios, y desde una mayoría de los sistemas usados para acceder al chat, ya sean computadoras del plantel, computadoras propias de los usuarios, o dispositivos móbiles intelligentes.
+* Mantenibilidad: El software debe ser capaz de soportar a chats por varios años, y mantener funcional y disponibles los mensajes mandados a lo largo del tiempo cuando se actualiza.
 
 ### 5.5. Reglas de Negocio
-List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
+Todos los usuarios, alumnos, profesores y personas administrativas, tienen la capacidad de crear grupos de chat, pero solo los profesores podrán administrar los grupos especiales asignados por el software a cada clase. Los unicos usuarios que podrán acceder a los mensajes de chats en los que no fueron invitados son las cuentas de moderador especialmente avalados por el ITAM para esta función administrativa.
 
 ## **6. Otros requerimientos**
 Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
