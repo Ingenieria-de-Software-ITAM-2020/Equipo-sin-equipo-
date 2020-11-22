@@ -103,8 +103,10 @@ Esta aplicación web deberá ser lo mas universal posible, para permitir su acce
 ### 3.3. Interfaces de software
 La base de datos de los usuarios debe estar conectada al la base de alumnos del ITAM, para usar sus datos para la autenticación de los usuarios, además esta aplicación debe ser accesible desde la página web del ITAM y de sus plataformas para alumnos.
 
+Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
+
 ### 3.4. Interfaces de comunicación
-Para la utilización de este servicio se debe contar con una ceunta vigente del ITAM, además de acceso a internet desde un navegador web, preferiblemente en su úlitma versión. Además el servicio debe contar con un sistema de encriptación de los chats, para asegurar la privacidad fuera de la organización. Para la utilización de este servicio se debe contar con una ceunta vigente del ITAM, además de acceso a internet desde un navegador web, preferiblemente en su úlitma versión. Además el servicio debe contar con un sistema de encriptación de los chats, para asegurar la privacidad fuera de la organización. Debido a la naturaleza del servicio, se contará con un gran volumen de transmisión de datos y se debe asegurar que todos los chats tengan una sincronización óptima.
+Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.
 
 ## **4. Funcionalidades del sistema**
 *(This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.)*
@@ -148,27 +150,37 @@ Al tener las listas definitivas, el sistema crea una sala para cada materia que 
 
 #### 4.3.1 Descripción y prioridad
 
-
+Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, para mejorar la comunicación entre equipos, alumnxs y maestrxs. 
 
 #### 4.3.2 Secuencias de respuesta
 #### 4.3.3 Requerimientos
 
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-1:
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: rechazar invitación a sala...
 
 ### 4.4. Un alumnx puede solicitar un chat con el personal administrativo
 
 #### 4.4.1 Descripción y prioridad
 
-baja
+En caso de necesitar asistencia personalizada, lxs alumnxs pueden acceder a un menú de asistencia, donde se creará una sala con un miembro del personal administrativo, dependiendo del tipo de asistencia que requiera. Prioridad media
 
 #### 4.4.2 Secuencias de respuesta
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
-#### 4.4.3 Requerimientos
-Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
 
-*(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
-<br>*REQ-1:*
-<br>*REQ-2:*
+* El alumnx selecciona la opción *Asistencia*
+* Se accede a una interfaz donde el alumnx selecciona el área que crea conveniente para su problema
+* Se crea un chat con un miembro del personal administrativo del área seleccionada anteriormente
+* El alumnx termina la sala, misma que permanece suspendida por si necesita darle seguimiento al problema
+* La sala se borra tras estar 6 meses inactiva
+
+#### 4.4.3 Requerimientos
+
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón que lleva a la página de asistencia
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: La página de asistencia tiene un botón por cada área administrativa
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-3: Seleccionar un área crea una sala con un miembro del personal administrativo indicado
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El miembro del personal administrativo puede crear y redireccionar al alumnx a otra sala
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Cuando el alumno da por terminada la sala, esta se suspende
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-6: Cuando se supende una sala, se hace una encuesta de calidad del servicio
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Si el alumnx lo desea, puede reactivar o eliminar una sala suspendida
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-8: Si una sala permanece suspendida por 6 meses, se borra automáticamente
 
 ### 4.4. System Feature 5
 *(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
@@ -187,7 +199,7 @@ Itemize the detailed functional requirements associated with this feature. These
 El software debe ser capaz de estar funcional y servir a los usuarios de manera contínua durante el transcurso de todo el día, a través del año, con particular importancia mantener disponibilidad durante los horarios de clases, y en temporadas del año correspondientes a los exámenes finales e inscripción. El software debe ser capaz de manejar bajo el peso concurrente de multiples alumnos que usen el servicio, siendo capas de manejar a al menos 3000 usuarios concurrentemente, asegurando así su disponibilidad en los momentos mencionados de alto tráfico, donde un porcentaje considerable de las personas involucradas en el itam pueden requerir comunicarse.
 
 ### 5.2. Requerimientos de protección
-Para migitar el riesgo de acciones contrarias al reglamento del ITAM llevadas a cabo por los usuarios que facilite el chat, se debe mantener un historial de mensajes de cada chat moderable; además se debe delinear claramente a los alumnos el propósito de uso del servicio, que queda limitado a actividades relacionadas con la educación en la escuela, para advertir contra usos que pueden implicar un riesgo de privacidad para los usuarios.
+Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.
 
 ### 5.3. Requerimientos de seguridad
 Se debe asegurar que el software solo sea utilizable por los alumnos, profesores, y personal administrativo del itam, contando por identificación preexistente que asigna el Instituto Tecnológico Autónomo de México. De este modo, se espera que el software sea capaz de autentificar el usuario con su cuenta correo del ITAM y correo correspondiente de manera segura encriptada. Además, el contenido de los chats deben guardarse de manera segura de manera que solo los usuarios en cada chat o cuentas asignadas con capacidades de moderación puedan ver su contenido, y se debe presentar de manera clara a los usuarios quién es capaz de ver los mensajes que manda.
@@ -203,7 +215,7 @@ De las caracteristicas de calidad del software, las más relevantes, que afectan
 Todos los usuarios, alumnos, profesores y personas administrativas, tienen la capacidad de crear grupos de chat, pero solo los profesores podrán administrar los grupos especiales asignados por el software a cada clase. Los unicos usuarios que podrán acceder a los mensajes de chats en los que no fueron invitados son las cuentas de moderador especialmente avalados por el ITAM para esta función administrativa.
 
 ## **6. Otros requerimientos**
-El software debe ser capaz de moderarse tal que la actividad llevada a cabo en ella cumpla con los reglamentos del ITAM, particularmente los referentes a código de conducta de los alumnos y sobre acoso, tal que se pueda llevar a cabo acción administrativa si es necesario.
+Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
 
 ## **Apéndice A: Glosario**
 Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.
