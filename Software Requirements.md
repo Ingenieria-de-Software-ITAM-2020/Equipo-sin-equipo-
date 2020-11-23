@@ -101,7 +101,7 @@ El servicio debe ser capaz de hacer interfaz con el log in de la institución de
 El servicio contará con una descripción de como se usa alojado en el sitio web del ITAM, además de una descripción de cómo aplica codigo de conducta del plantel para su uso, y los usos permitidos y recomendados del software.
 
 ### 2.7. Suposiciones y dependencias
-List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
+El incio de sesión de este servicio será por medio de la base de datos de alumnos del itam, por lo que para funcionar depende de ella, además solo hará consultas, por lo que no afectará la información de la misma. Además, su principal vía de acceso será por medio de las plataformas de alumnos ya existentes, por lo que también se asume que un link de acceso será agregado a estas y que se informará a los usuarios de su ubicación y culquier modificación que esta pueda recibir.
 
 ## **3. Requerimientos de interfaz externa**
 ### 3.1. Interfaces de usuario
@@ -111,12 +111,11 @@ La pantalla inicial será un log-in, para iniciar sesión dentro del el chat, es
 Esta aplicación web deberá ser lo mas universal posible, para permitir su acceso a todos los usuarios del ITAM desde la mayor parte de dispositivos posibles, desde un navegador web, por lo que se debe asegurar que todas las funciones son compatibles con las últimas versiones de la mayoría de los navegadores.
 
 ### 3.3. Interfaces de software
-La base de datos de los usuarios debe estar conectada al la base de alumnos del ITAM, para usar sus datos para la autenticación de los usuarios, además esta aplicación debe ser accesible desde la página web del ITAM y de sus plataformas para alumnos.
-
-Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
+La base de datos de los usuarios debe estar conectada al la base de alumnos del ITAM, para usar sus datos para la autenticación de los usuarios, además esta aplicación debe ser accesible desde la página web del ITAM y de sus plataformas para alumnos. Por obvias razones es requerido un dispositivo capaz de
+acceder a internet desde un navegador y para que funcione de manera óptima se espera que este este en su última version disponible.
 
 ### 3.4. Interfaces de comunicación
-Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.
+Para el uso de este servicio de deberá poseer una cuenta del ITAM, suministrada por el mismo, además de un navegador web, de preferencia en su última versión. Para asegurar la privacidad de la institución y sus miembros, además es necesario que todas las comunicaciones se hagan con un proceso de encriptación de por medio. Debido al alcance del mismo, además se deberá infromar al usuario cuando haya un tráfico mayor al esperado para que este considere que la velocidad de la comunicación se puede ver afectada.
 
 ## **4. Funcionalidades del sistema**
 
