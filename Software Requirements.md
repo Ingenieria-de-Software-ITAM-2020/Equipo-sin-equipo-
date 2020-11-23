@@ -74,18 +74,20 @@ List any other documents or Web addresses to which this SRS refers. These may in
 
 ## **2. Descripción general**
 ### 2.1. Perspectiva del producto
-
 Este sistema debe ser independiente de los otros softwares ya existentes, ya que representa una funcionalidad diferente. Sin embargo, debe utilizarse en un servidor del ITAM, para mayor seguridad.
 
 ### 2.2. Funciones del producto
-Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
+* Los alumnos, profesores y personal administrativo que cuenten con un correo administrativo podrán usar su cuenta para acceder a este servicio y mandar mensajes a otros usuarios del servicio.
+* Los usuarios tendrán la capacidad de crear salas con otros usuarios para poder todos mensajear en ella, para, por ejemplo, coordinar el desarrollo de trabajos prácticos asignados por sus clases, o formar grupos de estudio.
+* Se creará de manera automática al inicio de cada semestre una sala de chat para cada clase que se tendrá, donde todos los alumnos inscritos podrán mandar mensajes, y que podrá ser administrado por el profesor correpsondiente.
+* Se contará con un método sencillo para que los estudiantes puedan pedir ayuda al personal administrativo, asignando personal para mandar mensajes basado en el tipo de apoyo que requiere.
 
 ### 2.3. Clases de usuario y características
 * La clase de usuario con mayores integrantes es el de los estudiantes del ITAM, que estarán comunicandose principalmente entre sí para coordinar trabajos y grupos de estudio, con sus profesores respectivos en cada clase para enterarse de informacion pertinente a esta, y con el personal administrativo del ITAM para apoyo con inscripciones y trabajo en el plantel de servicio social, entre otros. Estos deben ser alumnos vigentes actuales del plantel con cuenta para poder acceder al servicio. Se espera
 
 * La clase de profesores tendrá capacidades similares a los usuarios, pero contará además con la capacidad de administrar salas de chat creados automáticamente para las clases que imparte cada semestre, para comunicarse con sus alumnos; se espera que el mayor uso de la aplicación por esta clase sea en estas salas, aunque tambien podrá usarlas para mensajear uno a uno con sus alumnos para asuntos menos públicos.
 
-* La clase administrativa podrá usar las funciones del chat para comunicar con los alumnos información importante respecto al proceso educativo, además de coordinar entre ellos el funcionamiento correcto del plantel, aunque se busca enfatizar la mayor importancia de comunicación relacionado directamente con el proceso educativo de la institución.
+* La clase administrativa podrá usar las funciones del chat para comunicar con los alumnos información importante respecto al proceso educativo, en que podrá ser asignado una sala autómaticamente a los estudiantes que busquen ayuda, facilitada por el software. Además podrán coordinar entre ellos el funcionamiento correcto del plantel, aunque se busca enfatizar la mayor importancia de comunicación relacionado directamente con el proceso educativo de la institución.
 
 * La clase de moderadores es un subconjunto de los administradores que cuentan con un nivel elevado de privilegio en la aplicación; esto se debe a que serán capaces de ver los mensajes en salas de chat en las que no tiene que pedir permiso entrar, de donde requiere entonces ser vetado por el ITAM para usar sus privilegios exclusivamente para hacer valer el código de conducta de la institución en casos que la administración lo solicite.
 
