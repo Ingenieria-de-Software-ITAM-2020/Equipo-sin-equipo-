@@ -74,29 +74,31 @@ List any other documents or Web addresses to which this SRS refers. These may in
 
 ## **2. Descripción general**
 ### 2.1. Perspectiva del producto
-
 Este sistema debe ser independiente de los otros softwares ya existentes, ya que representa una funcionalidad diferente. Sin embargo, debe utilizarse en un servidor del ITAM, para mayor seguridad.
 
 ### 2.2. Funciones del producto
-Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
+* Los alumnos, profesores y personal administrativo que cuenten con un correo administrativo podrán usar su cuenta para acceder a este servicio y mandar mensajes a otros usuarios del servicio.
+* Los usuarios tendrán la capacidad de crear salas con otros usuarios para poder todos mensajear en ella, para, por ejemplo, coordinar el desarrollo de trabajos prácticos asignados por sus clases, o formar grupos de estudio.
+* Se creará de manera automática al inicio de cada semestre una sala de chat para cada clase que se tendrá, donde todos los alumnos inscritos podrán mandar mensajes, y que podrá ser administrado por el profesor correpsondiente.
+* Se contará con un método sencillo para que los estudiantes puedan pedir ayuda al personal administrativo, asignando personal para mandar mensajes basado en el tipo de apoyo que requiere.
 
 ### 2.3. Clases de usuario y características
-La clase de usuario con mayores integrantes es el de los estudiantes del ITAM, que estarán comunicandose principalmente entre sí para coordinar trabajos y grupos de estudio, con sus profesores respectivos en cada clase para enterarse de informacion pertinente a esta, y con el personal administrativo del ITAM para apoyo con inscripciones y trabajo en el plantel de servicio social, entre otros. Estos deben ser alumnos vigentes actuales del plantel con cuenta para poder acceder al servicio. Se espera
+* La clase de usuario con mayores integrantes es el de los estudiantes del ITAM, que estarán comunicandose principalmente entre sí para coordinar trabajos y grupos de estudio, con sus profesores respectivos en cada clase para enterarse de informacion pertinente a esta, y con el personal administrativo del ITAM para apoyo con inscripciones y trabajo en el plantel de servicio social, entre otros. Estos deben ser alumnos vigentes actuales del plantel con cuenta para poder acceder al servicio. Se espera
 
-La clase de profesores tendrá capacidades similares a los usuarios, pero contará además con la capacidad de administrar salas de chat creados automáticamente para las clases que imparte cada semestre, para comunicarse con sus alumnos; se espera que el mayor uso de la aplicación por esta clase sea en estas salas, aunque tambien podrá usarlas para mensajear uno a uno con sus alumnos para asuntos menos públicos.
+* La clase de profesores tendrá capacidades similares a los usuarios, pero contará además con la capacidad de administrar salas de chat creados automáticamente para las clases que imparte cada semestre, para comunicarse con sus alumnos; se espera que el mayor uso de la aplicación por esta clase sea en estas salas, aunque tambien podrá usarlas para mensajear uno a uno con sus alumnos para asuntos menos públicos.
 
-La clase administrativa podrá usar las funciones del chat para comunicar con los alumnos información importante respecto al proceso educativo, además de coordinar entre ellos el funcionamiento correcto del plantel, aunque se busca enfatizar la mayor importancia de comunicación relacionado directamente con el proceso educativo de la institución.
+* La clase administrativa podrá usar las funciones del chat para comunicar con los alumnos información importante respecto al proceso educativo, en que podrá ser asignado una sala autómaticamente a los estudiantes que busquen ayuda, facilitada por el software. Además podrán coordinar entre ellos el funcionamiento correcto del plantel, aunque se busca enfatizar la mayor importancia de comunicación relacionado directamente con el proceso educativo de la institución.
 
-La clase de moderadores es un subconjunto de los administradores que cuentan con un nivel elevado de privilegio en la aplicación; esto se debe a que serán capaces de ver los mensajes en salas de chat en las que no tiene que pedir permiso entrar, de donde requiere entonces ser vetado por el ITAM para usar sus privilegios exclusivamente para hacer valer el código de conducta de la institución en casos que la administración lo solicite.
+* La clase de moderadores es un subconjunto de los administradores que cuentan con un nivel elevado de privilegio en la aplicación; esto se debe a que serán capaces de ver los mensajes en salas de chat en las que no tiene que pedir permiso entrar, de donde requiere entonces ser vetado por el ITAM para usar sus privilegios exclusivamente para hacer valer el código de conducta de la institución en casos que la administración lo solicite.
 
 ### 2.4. Entorno operativo
-Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.
+El software operará en los servidores del Instituto Tecnológico Autónomo de México, funcionando como un servicio web que podrá ser accedido por el Internet dentro y fuera del plantel, a través de una mayoría de navegadores web que podrán funcionar en tanto computadoras del plantel y personales como dispositivos móviles.
 
 ### 2.5. Restricciones de diseño e implementación
-Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).
+El servicio debe ser capaz de hacer interfaz con el log in de la institución de manera que resguarde seguramente la información de contraseña del usuario, limitando su uso a aquellos que poseen cuenta del ITAM, y el servicio deberá ser capaz de correr de manera autónoma en el hardware que poseen los servidores del plantel.
 
 ### 2.6. Documentación de usuario
-List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
+El servicio contará con una descripción de como se usa alojado en el sitio web del ITAM, además de una descripción de cómo aplica codigo de conducta del plantel para su uso, y los usos permitidos y recomendados del software.
 
 ### 2.7. Suposiciones y dependencias
 List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
