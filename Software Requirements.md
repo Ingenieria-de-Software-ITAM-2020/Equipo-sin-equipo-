@@ -1,6 +1,6 @@
 *Al menos 3 casos de uso por requerimiento*
 # *Software Requirements Specification*<br>para<br>*Project*
-#### Version 1.0 approved
+#### Version 1.1 approved
 #### Preparado por Bernardo Paniagua, Ricardo Alonso y Ricardo Edward
 #### Equipo sin equipo
 #### 11/27/20
@@ -136,12 +136,19 @@ Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, p
 #### 4.1.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón para crear salas
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema tiene un buscador de alumnxs y profesorxs activos
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-3: El sistema te informa si fuíste invitado a una sala
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El sistema mete a la sala a las personas que acepten la invitación
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Las salas tienen un botón para añadir a otrxs miembrxs
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-6: El sistema puede borrar salas automáticamente
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Un usuario puede salirse de una sala manualmente
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-8: El creador de la sala puede borrarla manualmente
 
 ### 4.2. El sistema utiliza la cuenta del ITAM para autentificar a lxs usuarixs
@@ -159,9 +166,10 @@ Se utilizará el correo institucional para acceder al software, para que solo lo
 #### 4.2.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de usuarios del ITAM
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema solo permite el acceso con una cuenta ITAM vigente
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-3: El sistema notifica al usuario si su cuenta o contraseña son incorrectas
 
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema solo permite el acceso con una cuenta ITAM vigente
+
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-3: El sistema notifica al usuario si su cuenta o contraseña son incorrectas
 
 ### 4.3 El sistema crea una sala por cada clase
 
@@ -179,10 +187,12 @@ Al tener las listas definitivas, el sistema crea una sala para cada materia que 
 #### 4.3.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; El sistema tiene la base de datos de los grupos y lxs alumnxs inscritxs
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema sabe cuando estos son definitivos
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede crear salas automáticamente
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede borrar salas automáticamente
 
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema sabe cuando estos son definitivos
+
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede crear salas automáticamente
+
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede borrar salas automáticamente
 
 ### 4.4 Un alumnx puede solicitar un chat con el personal administrativo
 
@@ -201,12 +211,19 @@ En caso de necesitar asistencia personalizada, lxs alumnxs pueden acceder a un m
 #### 4.4.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón que lleva a la página de asistencia
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-2: La página de asistencia tiene un botón por cada área administrativa
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-3: Seleccionar un área crea una sala con un miembro del personal administrativo indicado
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El miembro del personal administrativo puede crear y redireccionar al alumnx a otra sala
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Cuando el alumno da por terminada la sala, esta se suspende
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-6: Cuando se supende una sala, se hace una encuesta de calidad del servicio
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Si el alumnx lo desea, puede reactivar o eliminar una sala suspendida
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-8: Si una sala permanece suspendida por 6 meses, se borra automáticamente
 
 ## **5. Otros requerimientos no funcionales**
