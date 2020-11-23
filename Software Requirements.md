@@ -127,6 +127,7 @@ Se utilizará el correo institucional para acceder al software, para que solo lo
 #### 4.1.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de usuarios del ITAM
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-2:
 
 
@@ -175,12 +176,19 @@ En caso de necesitar asistencia personalizada, lxs alumnxs pueden acceder a un m
 #### 4.4.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón que lleva a la página de asistencia
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-2: La página de asistencia tiene un botón por cada área administrativa
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-3: Seleccionar un área crea una sala con un miembro del personal administrativo indicado
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El miembro del personal administrativo puede crear y redireccionar al alumnx a otra sala
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Cuando el alumno da por terminada la sala, esta se suspende
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-6: Cuando se supende una sala, se hace una encuesta de calidad del servicio
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Si el alumnx lo desea, puede reactivar o eliminar una sala suspendida
+
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-8: Si una sala permanece suspendida por 6 meses, se borra automáticamente
 
 ### 4.4. System Feature 5
