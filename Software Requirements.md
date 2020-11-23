@@ -111,56 +111,74 @@ Describe the connections between this product and other specific software compon
 Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.
 
 ## **4. Funcionalidades del sistema**
-*(This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.)*
 
-### 4.1. El sistema utiliza la cuenta del ITAM para autentificar a lxs usuarixs
+### 4.1 Lxs alumnxs pueden crear salas personalizadas con otrxs alumnxs y/o profesorxs
 
 #### 4.1.1 Descripción y prioridad
 
-Se utilizará el correo institucional para acceder al software, para que solo los miembros de la comunidad ITAM tengan acceso a éste. Tiene prioridad alta, ya que se debe garantizar la confidencialidad y privacidad de las salas de chat.
+Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, para mejorar la comunicación entre equipos, alumnxs y maestrxs. Es la prioridad más alta, ya que es el principal objetivo del sistema.
 
 #### 4.1.2 Secuencias de respuesta
+
+* El alumnx entra a la página principal
+* El alumnx tiene la opción de crear una sala nueva
+* Al crear la sala, el alumnx tiene un buscador de alumnxs y profesorxs para añadir a su sala
+* Se crea la sala y se mandan las invitaciones pertinentes
+* Cuando se acepta la invitación, el alumnx o profesxr entra a la sala
+* Si la sala permanece inactiva por 6 meses, se borra
+
+#### 4.1.3 Requerimientos
+
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón para crear salas
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema tiene un buscador de alumnxs y profesorxs activos
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-3: El sistema te informa si fuíste invitado a una sala
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El sistema mete a la sala a las personas que acepten la invitación
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Las salas tienen un botón para añadir a otrxs miembrxs
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-6: El sistema puede borrar salas automáticamente
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Un usuario puede salirse de una sala manualmente
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-8: El creador de la sala puede borrarla manualmente
+
+### 4.2. El sistema utiliza la cuenta del ITAM para autentificar a lxs usuarixs
+
+#### 4.2.1 Descripción y prioridad
+
+Se utilizará el correo institucional para acceder al software, para que solo los miembros de la comunidad ITAM tengan acceso a éste. Tiene prioridad alta, ya que se debe garantizar la confidencialidad y privacidad de las salas de chat.
+
+#### 4.2.2 Secuencias de respuesta
 
 * Al entrar al sistema, se pide el correo institucional y la contraseña
 * Si son correctos, entra a la página principal
 * En caso contrario, dar un mensaje de error
 
-#### 4.1.3 Requerimientos
+#### 4.2.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de usuarios del ITAM
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema solo permite el acceso con una cuenta ITAM vigente
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-3: El sistema notifica al usuario si su cuenta o contraseña son incorrectas
 
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-2:
 
+### 4.3 El sistema crea una sala por cada clase
 
-### 4.2. El sistema crea una sala por cada clase
+#### 4.3.1 Descripción y prioridad
 
-#### 4.2.1 Descripción y prioridad
+Al tener las listas definitivas, el sistema crea una sala para cada materia que el alumnx tenga inscrita. Antes de iniciar un nuevo semestre, estos grupos se cierran y se borran del sistema. Es de prioridad media, ya que la principal función es crear salas personalizadas.
 
-Al tener las listas definitivas, el sistema crea una sala para cada materia que el alumnx tenga inscrita. Antes de iniciar un nuevo semestre, estos grupos se cierran y se borran del sistema. Es de prioridad media, ya que
-
-#### 4.2.2 Secuencias de respuesta
+#### 4.3.2 Secuencias de respuesta
 
 * El alumnx hace su horario
 * Cuando se tienen las listas definitivas, el sistema crea una sala por cada grupo
 * El sistema añade a cada sala todxs lxs alumnxs inscritos en ese grupo
 * Cuando se entregan calificaciones, el sistema elimina la sala
 
-#### 4.2.3 Requerimientos
-
-
-
-### 4.3. Lxs alumnxs pueden crear salas personalizadas con otrxs alumnxs y/o profesorxs
-
-#### 4.3.1 Descripción y prioridad
-
-Cada alumnx puede crear salas personalizadas con otrxs alumnxs y/o profesorxs, para mejorar la comunicación entre equipos, alumnxs y maestrxs.
-
-#### 4.3.2 Secuencias de respuesta
 #### 4.3.3 Requerimientos
 
-&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: rechazar invitación a sala...
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema tiene la base de datos de los grupos y lxs alumnxs inscritxs
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema sabe cuando estos son definitivos
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede crear salas automáticamente
+&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede borrar salas automáticamente
 
-### 4.4. Un alumnx puede solicitar un chat con el personal administrativo
+
+### 4.4 Un alumnx puede solicitar un chat con el personal administrativo
 
 #### 4.4.1 Descripción y prioridad
 
@@ -177,33 +195,14 @@ En caso de necesitar asistencia personalizada, lxs alumnxs pueden acceder a un m
 #### 4.4.3 Requerimientos
 
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-1: La página principal tiene un botón que lleva a la página de asistencia
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-2: La página de asistencia tiene un botón por cada área administrativa
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-3: Seleccionar un área crea una sala con un miembro del personal administrativo indicado
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El miembro del personal administrativo puede crear y redireccionar al alumnx a otra sala
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-5: Cuando el alumno da por terminada la sala, esta se suspende
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-6: Cuando se supende una sala, se hace una encuesta de calidad del servicio
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-7: Si el alumnx lo desea, puede reactivar o eliminar una sala suspendida
-
 &nbsp; &nbsp; &nbsp; &nbsp; REQ-8: Si una sala permanece suspendida por 6 meses, se borra automáticamente
 
-### 4.4. System Feature 5
-*(Don’t really say “System Feature 1.” State the feature name in just a few words.)*
-#### 4.4.1 Descripción y prioridad
-Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).
-#### 4.4.2 Secuencias de respuesta
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
-#### 4.4.3 Requerimientos
-Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.
-
-*(Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.)*
-<br>*REQ-1:*
-<br>*REQ-2:*
 ## **5. Otros requerimientos no funcionales**
 ### 5.1. Requerimientos de rendimiento
 El software debe ser capaz de estar funcional y servir a los usuarios de manera contínua durante el transcurso de todo el día, a través del año, con particular importancia mantener disponibilidad durante los horarios de clases, y en temporadas del año correspondientes a los exámenes finales e inscripción. El software debe ser capaz de manejar bajo el peso concurrente de multiples alumnos que usen el servicio, siendo capas de manejar a al menos 3000 usuarios concurrentemente, asegurando así su disponibilidad en los momentos mencionados de alto tráfico, donde un porcentaje considerable de las personas involucradas en el itam pueden requerir comunicarse.
