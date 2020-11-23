@@ -214,7 +214,7 @@ De las caracteristicas de calidad del software, las más relevantes, que afectan
 * Mantenibilidad: El software debe ser capaz de soportar a chats por varios años, y mantener funcional y disponibles los mensajes mandados a lo largo del tiempo cuando se actualiza.
 
 ### 5.5. Reglas de Negocio
-Todos los usuarios, alumnos, profesores y personas administrativas, tienen la capacidad de crear grupos de chat, pero solo los profesores podrán administrar los grupos especiales asignados por el software a cada clase. Los unicos usuarios que podrán acceder a los mensajes de chats en los que no fueron invitados son las cuentas de moderador especialmente avalados por el ITAM para esta función administrativa.
+El software debe ser capaz de moderarse tal que la actividad llevada a cabo en ella cumpla con los reglamentos del ITAM, particularmente los referentes a código de conducta de los alumnos y sobre acoso, tal que se pueda llevar a cabo acción administrativa si es necesario.
 
 ## **6. Otros requerimientos**
 Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
