@@ -52,7 +52,7 @@
 
 | Nombre | Fecha | Razón del cambio | Versión |
 | ------ | ----- | ---------------- | ------- |
-| | | | |
+|Ricardo Meadowcroft |21/11/2020 |Desarrollo de secciones 1,3, 4 y 5 | 0.1|
 | | | | |
 
 ## **1. Introducción**
