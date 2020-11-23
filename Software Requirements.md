@@ -186,13 +186,13 @@ Al tener las listas definitivas, el sistema crea una sala para cada materia que 
 
 #### 4.3.3 Requerimientos
 
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema tiene la base de datos de los grupos y lxs alumnxs inscritxs
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-1: El sistema tiene la base de datos de los grupos y lxs alumnxs inscritxs
 
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema sabe cuando estos son definitivos
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-2: El sistema sabe cuando estos son definitivos
 
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede crear salas automáticamente
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-3 El sistema puede crear salas automáticamente
 
-&nbsp; &nbsp; &nbsp; &nbsp; El sistema puede borrar salas automáticamente
+&nbsp; &nbsp; &nbsp; &nbsp; REQ-4: El sistema puede borrar salas automáticamente
 
 ### 4.4 Un alumnx puede solicitar un chat con el personal administrativo
 
