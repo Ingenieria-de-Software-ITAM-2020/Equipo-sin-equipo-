@@ -83,22 +83,18 @@
 * Start with ideas, such as, what worries me about this project/application.
 
 ## **6. FUNCIONES A PROBAR**
-*This is a listing of what is to be tested from the USERS viewpoint of what the system does.  This is not a technical description of the software, but a USERS view of the functions.*
 
-*Set the level of risk for each feature.  Use a simple rating scale such as (H, M, L): High, Medium and Low. These types of levels are understandable to a User.  You should be prepared to discuss why a particular level was chosen.*
+* La autentificación con la cuenta ITAM: Para garantizar la seguridad y privacidad de lxs usuarixs, solo los membros activos de la comunidad pueden entrar al sistema; de lo contrario, personas externas podrían enviar mensajes maliciosos a los miembros. Tiene riesgo alto.
 
-*It should be noted that Section 4 and Section 6 are very similar. The only true difference is the point of view.  Section 4 is a technical type description including version numbers and other technical information and Section 6 is from the User’s viewpoint.  Users do not understand technical software terminology; they understand functions and processes as they relate to their jobs.*
+* La creación de salas personalizadas: Debe asegurarse que lxs alumnxs puedan crear salas con otrxs alumnxs y/o profesorxes, pero no con miembros del personal administrativo, y que una persona entre a la sala solo si acepta la invitación. Tiene riesgo medio.
+
+* La creación de salas por grupo: Principalmente, estas deben meter a todxs lxs alumnxs inscritos en el grupo que les corresponda, y no meter a otras personas. Además, deben borrarse automáticamente al finalizar el curso. Tiene riesgo bajo.
+
+* La creación de salas con miembros del personal administrativo: Debido a que no hay otra forma de hacer estas salas, se debe asegurar que se hagan automáticamente cada que se solicitan. Tiene riesgo bajo.
 
 ## **7. FUNCIONES QUE NO DEBEN PROBARSE**
-*This is a listing of what is NOT to be tested from both the Users viewpoint of what the system does and a configuration management/version control view.  This is not a technical description of the software, but a USERS view of the functions.*
 
-*Identify WHY the feature is not to be tested, there can be any number of reasons.*
-
-*Sections 6 and 7 are directly related to Sections 5 and 17.  What will and will not be tested are directly affected by the levels of acceptable risk within the project, and what does not get tested affects the level of risk of the project.*
-
-* Not to be included in this release of the Software.
-* Low risk, has been used before and is considered stable.
-* Will be released but not tested or documented as a functional part of the release of this version of the software.
+La validez de las cuentas ITAM para el log in debe ser garantizado por la institución, por lo que no necesita ser probado.
 
 ## **8. ACCERCAMIENTO (ESTRATEGIA)**
 *This is your overall test strategy for this test plan; it should be appropriate to the level of the plan (master, acceptance, etc.) and should be in agreement with all higher and lower levels of plans.  Overall rules and processes should be identified.*
