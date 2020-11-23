@@ -93,10 +93,10 @@ Summarize the major functions the product must perform or must let the user perf
 El software operará en los servidores del Instituto Tecnológico Autónomo de México, funcionando como un servicio web que podrá ser accedido por el Internet dentro y fuera del plantel, a través de una mayoría de navegadores web que podrán funcionar en tanto computadoras del plantel y personales como dispositivos móviles.
 
 ### 2.5. Restricciones de diseño e implementación
-Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).
+El servicio debe ser capaz de hacer interfaz con el log in de la institución de manera que resguarde seguramente la información de contraseña del usuario, limitando su uso a aquellos que poseen cuenta del ITAM, y el servicio deberá ser capaz de correr de manera autónoma en el hardware que poseen los servidores del plantel.
 
 ### 2.6. Documentación de usuario
-List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
+El servicio contará con una descripción de como se usa alojado en el sitio web del ITAM, además de una descripción de cómo aplica codigo de conducta del plantel para su uso, y los usos permitidos y recomendados del software.
 
 ### 2.7. Suposiciones y dependencias
 List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
