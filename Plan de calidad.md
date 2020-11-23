@@ -1,7 +1,7 @@
 # **TEST PLAN OUTLINE**<br>*(IEEE 829 FORMAT)*
 
 ## **TABLA DE CONTENDIOS**
-[**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Plan%20de%20calidad.md#tabla-de-contendios)
+[**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#tabla-de-contendios)
 1. [**Identificador del plan de prueba**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Plan%20de%20calidad.md#1-identificador-del-plan-de-prueba)
 2. [**Referencias**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Plan%20de%20calidad.md#2-referencias)
 3. [**Introducción**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Proyecto/Plan%20de%20calidad.md#3-introducci%C3%B3n)
