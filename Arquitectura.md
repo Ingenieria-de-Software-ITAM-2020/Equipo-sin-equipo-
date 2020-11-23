@@ -1,4 +1,4 @@
-#Arquitectura en capas
+# Arquitectura en capas
 
 El diseño de esta aplicación web será una mediante una arquitectura en capas. El diseño de esta se dividira en 3 capas:
 * La capa de presentación, que en genral será todo lo que puede ver el usuario, en esto están incluidas todas las interfaces  con las que interectuará como el log-in y los menús, además de todos los chats a los que tendrá acceso; esto es, los archivos html y css que conforman la página.
