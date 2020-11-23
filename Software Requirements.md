@@ -74,7 +74,8 @@ List any other documents or Web addresses to which this SRS refers. These may in
 
 ## **2. Descripción general**
 ### 2.1. Perspectiva del producto
-Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
+
+Este sistema debe ser independiente de los otros softwares ya existentes, ya que representa una funcionalidad diferente. Sin embargo, debe utilizarse en un servidor del ITAM, para mayor seguridad.
 
 ### 2.2. Funciones del producto
 Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
