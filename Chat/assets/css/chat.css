@@ -1,0 +1,61 @@
+#headder{
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  background-color: lightGray;
+}
+
+#nombre {
+  padding: 5px;
+}
+
+#chat {
+  height: calc(100vh - 100px);
+  width: 100vw;
+  background-color: white;
+  overflow-y: auto;
+}
+
+#chat > p {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#chat > div {
+  grid-template-columns: calc(85% - 5px) calc(15% - 5px);
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.input-menu {
+  background-color: lightGray;
+  height: 50px;
+  width: 100vw;
+}
+input[type=text] {
+  padding: 5px;
+  font-size: 1em;
+  outline: none;
+  border-radius: 8px;
+  margin-left:3%;
+  margin-top: 10px;
+  width: calc(93% - 130px);
+}
+#upload {
+  display: none;
+}
+.file-upload {
+  width: 50px;
+  height: 50px:
+  background-color: red;
+  display: inline-block;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#send {
+  width: 80px;
+  height: 50px:
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <script language="javascript" type="text/javascript" src="assets/js/log.js"></script>
+  </head>
+  <body>
+    <div id="block" onclick="hideA()"></div>
+    <div class="headder">
+      <img src="assets/img/img-ITAM-logo.png" alt="ITAM" height="70px" width="auto">
+    </div>
+    <div class="container">
+      <div class="dropd">
+        <button class="dropdb" id="menub">Chats</button>
+        <div class="menu" id="menu">
+          <div class="search">
+            <input type="text" id="searchText" placeholder="Buscar Contacto"/><button type="button" id="lookUp">&#128270;</button>
+          </div>
+          <div class="chat-list">
+            <a href="chat.html?4b309d" target="actvie_chat" onclick="hide()">John Doe</a>
+            <a href="chat.html?52cdc7" target="actvie_chat" onclick="hide()">Link 2</a>
+            <a href="chat.html?dd2140" target="actvie_chat" onclick="hide()">Link 3</a>
+            <a href="chat.html?6510e8" target="actvie_chat" onclick="hide()">Link 4</a>
+            <a href="chat.html?08dfd9" target="actvie_chat" onclick="hide()">Link 5</a>
+            <a href="chat.html?a67681" target="actvie_chat" onclick="hide()">Link 6</a>
+            <a href="chat.html?17fc37" target="actvie_chat" onclick="hide()">Link 7</a>
+            <a href="chat.html?421e9d" target="actvie_chat" onclick="hide()">Link 8</a>
+            <a href="chat.html?40fbe7" target="actvie_chat" onclick="hide()">Link 9</a>
+            <a href="chat.html?24041b" target="actvie_chat" onclick="hide()">Link 10</a>
+            <a href="chat.html?26d5a5" target="actvie_chat" onclick="hide()">Link 11</a>
+            <a href="chat.html?911d7c" target="actvie_chat" onclick="hide()">Link 12</a>
+            <a href="chat.html?2d47a0" target="actvie_chat" onclick="hide()">Link 13</a>
+          </div>
+          <button class="assistance">Asistencia</button>
+        </div>
+      </div>
+      <div class="chat">
+        <iframe src="" name="actvie_chat" title="chat"></iframe>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function hide() {
+        document.getElementById("block").style.display = "block";
+      }
+      function hideA() {
+        document.getElementById("block").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

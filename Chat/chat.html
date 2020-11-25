@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <script language="javascript" type="text/javascript" src="assets/js/chat.js"></script>
+    <title>chat</title>
+  </head>
+  <body>
+    <div id="headder">
+      <h1 id="nombre">[user]</h1>
+    </div>
+    <div id="chat">
+      <iframe id="record" src="" onload="LoadFile();" width="1" height"1"></iframe>
+    </div>
+    <div class="input-menu">
+      <input type="text" id="text" autocomplete="off" placeholder="..."/>
+      <label class="file-upload"><input type="file" name="file" id="upload">&#8679;</label>
+      <button type="button" id="send" onclick="textEnter()">Enviar</button>
+    </div>
+    <script type="text/javascript">
+      var input = document.getElementById("text");
+      input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("send").click();
+        }
+      });
+    </script>
+  </body>
+</html>
