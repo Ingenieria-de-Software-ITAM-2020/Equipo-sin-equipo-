@@ -40,13 +40,7 @@
 * Corporate standards and guidelines
 
 ## **3. INTRODUCCIÓN**
-*State the purpose of the Plan, possibly identifying the level of the plan (master etc.). This is essentially the executive summary part of the plan.*
-
-*You may want to include any references to other plans, documents or items that contain information relevant to this project/process. If preferable, you can create a references section to contain all reference documents.*
-
-*Identify the Scope of the plan in relation to the Software Project plan that it relates to. Other items may include, resource and budget constraints, scope of the testing effort, how testing relates to other evaluation activities (Analysis & Reviews), and possible the process to be used for change control and communication and coordination of key activities.*
-
-*As this is the “Executive Summary” keep information brief and to the point.*
+Este es el plan maestro de pruebas para el proyecto de chat para alumnos del ITAM. Este plan cubrirá los elementos afectados directa e indirectamente. El objetivo principal es garantizar que la aplicación proporcione un buen sistema de comunicación para los alumnos, ya sea entre ellos o con los maestros o profesores. El plazo estimado para este proyecto es de seis (6) meses. Se espera que la prueba de aceptación tome un (1) mes a partir de la fecha de entrega.
 
 ## **4. ELEMENTOS DE PRUEBA (FUNCIONES)**
 *These are things you intend to test within the scope of this test plan.  Essentially, something you will test, a list of what is to be tested. This can be developed from the software application inventories as well as other sources of documentation and information.*
@@ -58,32 +52,14 @@
 *This section can be oriented to the level of the test plan.  For higher levels it may be by application or functional area, for lower levels it may be by program, unit, module or build.*
 
 ## **5. PROBLEMAS DE RIESGO DE SOFTWARE**
-*Identify what software is to be tested and what the critical areas are, such as:*
-
-* Delivery of a third party product.
-* New version of interfacing software
-* Ability to use and understand a new package/tool, etc.
-* Extremely complex functions
-* Modifications to components with a past history of failure
-* Poorly documented modules or change requests
-
-*There are some inherent software risks such as complexity; these need to be identified.*
-
-* Safety
-* Multiple interfaces
-* Impacts on Client
-* Government regulations and rules
-
-*Another key area of risk is a misunderstanding of the original requirements. This can occur at the management, user and developer levels. Be aware of vague or unclear requirements and requirements that cannot be tested.*
-
-*The past history of defects (bugs) discovered during Unit testing will help identify potential areas within the software that are risky.  If the unit testing discovered a large number of defects or a tendency towards defects in a particular area of the software, this is an indication of potential future problems.  It is the nature of defects to cluster and clump together.  If it was defect ridden earlier, it will most likely continue to be defect prone.*
-
-*One good approach to define where the risks are is to have several brainstorming sessions.*
-
-* Start with ideas, such as, what worries me about this project/application.
+Hay varias partes del proyecto que no están bajo el control de la aplicación pero que tienen un impacto directo en el proceso y también deben probarse.
+* La incorporación a las plataformas del ITAM, su acceso y el comportamiento en conjutno con la aplicación.
+* Compatibilidad con una gran variedad de navegadores y dispositivos.rrectos.
+* El acceso a la base de datos para el uso de las cuentas ya existentes de los alumnos, su funcionamiento y su disponibilidad.
+* La seguridad de la base de datos de alumnos y maestros del ITAM.
+* El comportamiento del servicio cuando el resto de plataformas del ITAM caen o no funcionan correctamente.
 
 ## **6. FUNCIONES A PROBAR**
-
 * La autentificación con la cuenta ITAM: Para garantizar la seguridad y privacidad de lxs usuarixs, solo los membros activos de la comunidad pueden entrar al sistema; de lo contrario, personas externas podrían enviar mensajes maliciosos a los miembros. Tiene riesgo alto.
 
 * La creación de salas personalizadas: Debe asegurarse que lxs alumnxs puedan crear salas con otrxs alumnxs y/o profesorxes, pero no con miembros del personal administrativo, y que una persona entre a la sala solo si acepta la invitación. Tiene riesgo medio.
@@ -127,32 +103,11 @@ La validez de las cuentas ITAM para el log in debe ser garantizado por la instit
 *How will meetings and other organizational processes be handled?*
 
 ## **9. CRITERIOS DE APROBACIÓN/FALLA**
-*What are the Completion criteria for this plan?  This is a critical aspect of any test plan and should be appropriate to the level of the plan.*
-
-* At the Unit test level this could be items such as:
-    * All test cases completed.
-    * A specified percentage of cases completed with a percentage containing some number of minor defects.
-    * Code coverage tool indicates all code covered.
-* At the Master test plan level this could be items such as:
-    * All lower level plans completed.
-    * A specified number of plans completed without errors and a percentage with minor defects.
-
-*This could be an individual test case level criterion or a unit level plan or it can be general functional requirements for higher level plans.*
-
-*What is the number and severity of defects located?*
-
-* Is it possible to compare this to the total number of defects?  This may be impossible, as some defects are never detected.
-    * A defect is something that may cause a failure, and may be acceptable to leave in the application.
-    * A failure is the result of a defect as seen by the User, the system crashes, etc.
+El proceso de prueba se completará una vez que el conjunto inicial de pruebas se hayan realizado con éxito y el personal del instituto esté satisfecho y seguro de que se cumplen con los requerimentos mínimos para el proposito de la aplicación. En ese momento la aplicación se considera activa.
 
 ## **10. CRITERIOS DE SUSPENSIÓN Y REQUISITOS DE REANUDACIÓN**
-*Know when to pause in a series of tests.*
-
-* If the number or type of defects reaches a point where the follow on testing has no value, it makes no sense to continue the test; you are just wasting resources.
-
-*Specify what constitutes stoppage for a test or series of tests and what is the acceptable level of defects that will allow the testing to proceed past the defects.*
-
-*Testing after a truly fatal error will generate conditions that may be identified as defects but are in fact ghost errors caused by the earlier defects that were ignored.*
+* Falta de disponibildad de los servidores y bases de datos del ITAM, el proceso se reanudara, una vez estas sean accesibles y esten funcioando normalmente.
+* Fallas en la seguridad de la aplicación. En el caso de encontrarse una brecha en la seguridad de la aplicación se procedera a repararla  a la brevedad, antes de resumir el proceso.
 
 ## **11. ENTREGABLES DE PRUEBA**
 *What is to be delivered as part of this plan?*
@@ -177,14 +132,10 @@ La validez de las cuentas ITAM para el log in debe ser garantizado por la instit
 
 
 ## **13. NECESIDADES DEL ENTORNO**
-*Are there any special requirements for this test plan, such as:*
-
-* Special hardware such as simulators, static generators etc.
-* How will test data be provided.  Are there special collection requirements or specific ranges of data that must be provided?
-* How much testing will be done on each component of a multi-part feature?
-* Special power requirements.
-* Specific versions of other supporting software.
-* Restricted use of the system during testing.
+Los siguientes elementos son necesarios para las pruebas generales en todos los casos:
+* Un dispositivo electrónico con navegador web y conexión a internet.
+* Un navegador web actualizado hasta su última versión de preferencia (a menos que se este probando su funcionamiento en versiones anteriores).
+* Una cuenta vigente del ITAM.
 
 ## **14. NECESIDADES DE PERSONAL Y CAPACITACIÓN**
 *Training on the application/system.*
