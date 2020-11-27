@@ -116,6 +116,8 @@ Se ha asignado tiempo dentro del plan del proyecto para las siguientes actividad
 * Hay una denuncia de acoso
    * Se manda el historial del chat donde se hizo la denuncia a las autoridades correspondientes
    * La sala en cuestión se debe supender hasta terminar la investigación
+* Se crea una sala y todos los miembros rechazan la solicitud
+  * Se envía un mensaje al creador y se descarta la sala
 
 ## **18. APROBACIONES**
 El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
