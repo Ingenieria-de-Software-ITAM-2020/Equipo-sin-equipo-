@@ -20,7 +20,6 @@
 16. [**Programa**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#16-programa)
 17. [**Planificación de riesgos y contingencias**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#17-planificaci%C3%B3n-de-riesgos-y-contingencias)
 18. [**Aprobaciones**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#18-aprobaciones)
-19. [**Glosario**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#19-glosario)
 
 ## **1. IDENTIFICADOR DEL PLAN DE PRUEBA**
 *Some type of unique company generated number to identify this test plan, its level and the level of software that it is related to.  Preferably the test plan level will be the same as the related software level.  The number may also identify whether the test plan is a Master plan, a Level plan, an integration plan or whichever plan level it represents. This is to assist in coordinating software and testware versions within configuration management.*
@@ -119,31 +118,13 @@ Además, cualquier caso de acoso deberá ser reportado directamente a las autori
 *It is always best to tie all test dates directly to their related development activity dates.  This prevents the test team from being perceived as the cause of a delay.  For example, if system testing is to begin after delivery of the final build, then system testing begins the day after delivery.  If the delivery is late, system testing starts from the day of delivery, not on a specific date.  This is called dependent or relative dating.*
 
 ## **17. PLANIFICACIÓN DE RIESGOS Y CONTINGENCIAS**
-*What are the overall risks to the project with an emphasis on the testing process?*
 
-* Lack of personnel resources when testing is to begin.
-* Lack of availability of required hardware, software, data or tools.
-* Late delivery of the software, hardware or tools.
-* Delays in training on the application and/or tools.
-* Changes to the original requirements or designs.
-
-*Specify what will be done for various events, for example:*
-
-* Requirements definition will be complete by January 1, 19XX, and, if the requirements change after that date, the following actions will be taken.
-    * The test schedule and development schedule will move out an appropriate number of days.  This rarely occurs, as most projects tend to have fixed delivery dates.
-    * The number of test performed will be reduced.
-    * The number of acceptable defects will be increased.
-        * These two items could lower the overall quality of the delivered product.
-    * Resources will be added to the test team.
-    * The test team will work overtime.
-        * This could affect team morale.
-    * The scope of the plan may be changed.
-    * There may be some optimization of resources.  This should be avoided, if possible, for obvious reasons.
-    * You could just QUIT.  A rather extreme option to say the least.
-
-*Management is usually reluctant to accept scenarios such as the one above even though they have seen it happen in the past.*
-
-*The important thing to remember is that, if you do nothing at all, the usual result is that testing is cut back or omitted completely, neither of which should be an acceptable option.*
+* No se puede garantizar que solo los usuarios con cuentas activas del ITAM entren al sistema
+   * Se debe supender completamente el servicio
+   * Un equipo entra a corregir el problema
+* Hay una denuncia de acoso
+   * Se manda el historial del chat donde se hizo la denuncia a las autoridades correspondientes
+   * La sala en cuestión se debe supender hasta terminar la investigación
 
 ## **18. APROBACIONES**
 El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
