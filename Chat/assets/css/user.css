@@ -74,11 +74,11 @@
   height: 50px;
   width: 100%;
   display: grid;
-  grid-template-columns: 200px 50px;
+  grid-template-columns: 150px 50px 50px;
 }
 input[type=text] {
-  padding: 15px;
-  padding-bottom: 30px;
+  padding: 11px;
+  padding-bottom: 10px;
   font-size: 1em;
   outline: none;
   height: 50px;
@@ -90,10 +90,27 @@ input[type=text] {
   text-align: center;
   padding-bottom: 5px;
   padding-left: 2px;
-  border-style: none;
+  border-style: inset;
+  border-width: 1px 0px 1px 0px;
   outline: none;
 }
+#addChat {
+  height: 50px;
+  margin: 0;
+  font-size: 1.6em;
+  font-weight:900;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  border-style: inset;
+  border-width: 1px 1px 1px 1px;
+  outline: none;
+}
+
 #lookUp:hover {
+  background-color: lightGray;
+}
+#addChat:hover {
   background-color: lightGray;
 }
 
