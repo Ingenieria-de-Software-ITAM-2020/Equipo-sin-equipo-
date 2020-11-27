@@ -66,34 +66,9 @@ Hay varias partes del proyecto que no están bajo el control de la aplicación p
 La validez de las cuentas ITAM para el log in debe ser garantizado por la institución, por lo que no necesita ser probado.
 
 ## **8. ACCERCAMIENTO (ESTRATEGIA)**
-*This is your overall test strategy for this test plan; it should be appropriate to the level of the plan (master, acceptance, etc.) and should be in agreement with all higher and lower levels of plans.  Overall rules and processes should be identified.*
+La estrategia de prueba para el software será enfocado en pruebas de alto nivel que analizen el funcionamiento a nivel sistema del software en diversos entornos que reflejen posibles entornos de uso futuros. No se usarán herraientas computacionales especiales para llevar a cabo análisis, más que la determinación de uso de memoria y tiempo de ejecución de comandos en el hardware que se usará para simular el funcionamiento que se tendrá en los servidores de la institución. El servidor será probado en una configuración que refleje los esperados límites de hardware y software del servidor en que será implementdo, mientras que el funcionamiento a lado de cliente deberá ser probado en una multiplicidad de configuraciones; como mínimo, probandose en las computadoras presentes en el plantel de institución, computadoras personales,  y dispositivos móviles, perferentemente usando los diferentes sitemas operativos comúnes: Windows, macOS, Linux, Android y iOS. Similarmente, deberá ser accedido para probarse en una multiplicidad de navegadores móviles, usando como mínimo Google Chrome, Microsoft Edge, Firefox y Safari.
 
-* Are any special tools to be used and what are they?
-* Will the tool require special training?
-* What metrics will be collected?
-* Which level is each metric to be collected at?
-* How is Configuration Management to be handled?
-* How many different configurations will be tested?
-* Hardware
-* Software
-* Combinations of HW, SW and other vendor packages
-* What levels of regression testing will be done and how much at each test level?
-* Will regression testing be based on severity of defects detected?
-* How will elements in the requirements and design that do not make sense or are untestable be processed?
-
-*If this is a master test plan the overall project testing approach and coverage requirements must also be identified.*
-
-*Specify if there are special requirements for the testing.*
-
-* Only the full component will be tested.
-* A specified segment of grouping of features/components must be tested together.
-
-*Other information that may be useful in setting the approach are:*
-
-* MTBF, Mean Time Between Failures - if this is a valid measurement for the test involved and if the data is available.
-* SRE, Software Reliability Engineering - if this methodology is in use and if the information is available.
-
-*How will meetings and other organizational processes be handled?*
+Para las métricas de evaluación, se considerará el tiempo medio entre fallas, a nivel general entre todas las pruebas, considerando que errores ocurren en la lógica del servidor, y particular para cada sistema operativo, navegador, y combinación entre ellas que usa el cliente, para identificar las principales faltas en la compatibilidad con posibles casos de uso del usuario. Además, se harán pruebas de estrés simulando una alta cantidad de clientes haciendo operaciones de mensajeo simultáneamente para obtener métricas cuantitativas del tiempo de operaciones y memoria usada bajo alto tráfico, y determinar si estarán en niveles suficientemente bajos para generar una experiencia de usuario acceptable en casos extremos de uso previsto.
 
 ## **9. CRITERIOS DE APROBACIÓN/FALLA**
 El proceso de prueba se completará una vez que el conjunto inicial de pruebas se hayan realizado con éxito y el personal del instituto esté satisfecho y seguro de que se cumplen con los requerimentos mínimos para el proposito de la aplicación. En ese momento la aplicación se considera activa.
