@@ -187,7 +187,6 @@ No se requiere capacitación para utilizar el sistema como usuario común, ya qu
 *The important thing to remember is that, if you do nothing at all, the usual result is that testing is cut back or omitted completely, neither of which should be an acceptable option.*
 
 ## **18. APROBACIONES**
-
 El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
 
 ## **19. GLOSARIO**
