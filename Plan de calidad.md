@@ -22,11 +22,8 @@
 18. [**Aprobaciones**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#18-aprobaciones)
 
 ## **1. IDENTIFICADOR DEL PLAN DE PRUEBA**
-*Some type of unique company generated number to identify this test plan, its level and the level of software that it is related to.  Preferably the test plan level will be the same as the related software level.  The number may also identify whether the test plan is a Master plan, a Level plan, an integration plan or whichever plan level it represents. This is to assist in coordinating software and testware versions within configuration management.*
 
-*Keep in mind that test plans are like other software documentation, they are dynamic in nature and must be kept up to date.  Therefore, they will have revision numbers.*
-
-*You may want to include author and contact information including the revision history information as part of either the identifier section of as part of the introduction.*
+TF-FJG23.9
 
 ## **2. REFERENCIAS**
 
