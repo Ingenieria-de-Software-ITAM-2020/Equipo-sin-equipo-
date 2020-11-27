@@ -66,34 +66,9 @@ Hay varias partes del proyecto que no están bajo el control de la aplicación p
 La validez de las cuentas ITAM para el log in debe ser garantizado por la institución, por lo que no necesita ser probado.
 
 ## **8. ACCERCAMIENTO (ESTRATEGIA)**
-*This is your overall test strategy for this test plan; it should be appropriate to the level of the plan (master, acceptance, etc.) and should be in agreement with all higher and lower levels of plans.  Overall rules and processes should be identified.*
+La estrategia de prueba para el software será enfocado en pruebas de alto nivel que analizen el funcionamiento a nivel sistema del software en diversos entornos que reflejen posibles entornos de uso futuros. No se usarán herraientas computacionales especiales para llevar a cabo análisis, más que la determinación de uso de memoria y tiempo de ejecución de comandos en el hardware que se usará para simular el funcionamiento que se tendrá en los servidores de la institución. El servidor será probado en una configuración que refleje los esperados límites de hardware y software del servidor en que será implementdo, mientras que el funcionamiento a lado de cliente deberá ser probado en una multiplicidad de configuraciones; como mínimo, probandose en las computadoras presentes en el plantel de institución, computadoras personales,  y dispositivos móviles, perferentemente usando los diferentes sitemas operativos comúnes: Windows, macOS, Linux, Android y iOS. Similarmente, deberá ser accedido para probarse en una multiplicidad de navegadores móviles, usando como mínimo Google Chrome, Microsoft Edge, Firefox y Safari.
 
-* Are any special tools to be used and what are they?
-* Will the tool require special training?
-* What metrics will be collected?
-* Which level is each metric to be collected at?
-* How is Configuration Management to be handled?
-* How many different configurations will be tested?
-* Hardware
-* Software
-* Combinations of HW, SW and other vendor packages
-* What levels of regression testing will be done and how much at each test level?
-* Will regression testing be based on severity of defects detected?
-* How will elements in the requirements and design that do not make sense or are untestable be processed?
-
-*If this is a master test plan the overall project testing approach and coverage requirements must also be identified.*
-
-*Specify if there are special requirements for the testing.*
-
-* Only the full component will be tested.
-* A specified segment of grouping of features/components must be tested together.
-
-*Other information that may be useful in setting the approach are:*
-
-* MTBF, Mean Time Between Failures - if this is a valid measurement for the test involved and if the data is available.
-* SRE, Software Reliability Engineering - if this methodology is in use and if the information is available.
-
-*How will meetings and other organizational processes be handled?*
+Para las métricas de evaluación, se considerará el tiempo medio entre fallas, a nivel general entre todas las pruebas, considerando que errores ocurren en la lógica del servidor, y particular para cada sistema operativo, navegador, y combinación entre ellas que usa el cliente, para identificar las principales faltas en la compatibilidad con posibles casos de uso del usuario. Además, se harán pruebas de estrés simulando una alta cantidad de clientes haciendo operaciones de mensajeo simultáneamente para obtener métricas cuantitativas del tiempo de operaciones y memoria usada bajo alto tráfico, y determinar si estarán en niveles suficientemente bajos para generar una experiencia de usuario acceptable en casos extremos de uso previsto.
 
 ## **9. CRITERIOS DE APROBACIÓN/FALLA**
 El proceso de prueba se completará una vez que el conjunto inicial de pruebas se hayan realizado con éxito y el personal del instituto esté satisfecho y seguro de que se cumplen con los requerimentos mínimos para el proposito de la aplicación. En ese momento la aplicación se considera activa.
@@ -104,11 +79,19 @@ El proceso de prueba se completará una vez que el conjunto inicial de pruebas s
 
 ## **11. ENTREGABLES DE PRUEBA**
 
-* Plan de calidad
-* Vista de las lasas cradas en las pruebas
-* Simulación de un proceso administrativo
-* Pantallas de error
-* Reporte de problemas generales
+
+*What is to be delivered as part of this plan?*
+
+* Test plan document.
+* Test cases.
+* Test design specifications.
+* Tools and their outputs.
+* Simulators.
+* Static and dynamic generators.
+* Error logs and execution logs.
+* Problem reports and corrective actions.
+
+*One thing that is not a test deliverable is the software itself that is listed under test items and is delivered by development.*
 
 ## **12. TAREAS DE PRUEBA RESTANTES**
 Se espera que este software sea implementado a los servidores del Instituto Tecnológico Autónomo de México ya contando con una funcionalidad completa, por lo que este plan de calidad se usará para probar la correcta implementación de todos los elementos actualmente considerados para el software, de donde se probará asumiendo que los usuarios no deberán evitar funciones incompletas.
@@ -125,9 +108,17 @@ Los siguientes elementos son necesarios para las pruebas generales en todos los 
 No se requiere capacitación para utilizar el sistema como usuario común, ya que debe ser lo más intuitivo posible. Los moderadores de información deberán entender el reglamento del ITAM como miembros administrativos de la institución para efectuar correctamente el mantenimiento del código de conducta, pero no requerirán de conocimientos técnicos para desempeñar los roles.
 
 ## **15. RESPONSIBILITIES**
+*Who is in charge?*
 
-El sistema debe tener un administrador, que se encargará de verificar que no haya problemas. El principal riesgo que se tiene es la entrada de terceros al sistema, por lo que debe verificarse con mucho cuidado el log in.
-Además, cualquier caso de acoso deberá ser reportado directamente a las autoridades correspondientes.
+*This issue includes all areas of the plan.  Here are some examples:*
+
+* Setting risks.
+* Selecting features to be tested and not tested.
+* Setting overall strategy for this level of plan.
+* Ensuring all required elements are in place for testing.
+* Providing for resolution of scheduling conflicts, especially, if testing is done on the production system.
+* Who provides the required training?
+* Who makes the critical go/no go decisions for items not covered in the test plans?
 
 ## **16. PROGRAMA**
 *Should be based on realistic and validated estimates.  If the estimates for the development of the application are inaccurate, the entire project plan will slip and the testing is part of the overall project plan.*
@@ -172,3 +163,6 @@ Además, cualquier caso de acoso deberá ser reportado directamente a las autori
 
 ## **18. APROBACIONES**
 El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
+
+## **19. GLOSARIO**
+*Used to define terms and acronyms used in the document, and testing in general, to eliminate confusion and promote consistent communications.*
