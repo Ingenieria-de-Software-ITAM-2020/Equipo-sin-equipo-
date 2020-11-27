@@ -31,6 +31,32 @@
   height: calc(100vh - 80px);
 }
 
+.menuast {
+  width: 250px;
+  position: absolute;
+  left: 248px;
+  top: calc(100vh - 314px);
+  display: none;
+}
+
+.menuast a {
+  background-color: rgb(170, 170, 170);
+  color: black;
+  display: block;
+  font-size: 1.4em;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px 2px 0px 2px;
+  border-color: rgb(0,0,0);
+}
+.menuast a:last-child {
+  border-width: 2px 2px 2px 2px;
+}
+.menuast a:hover {
+  background-color: rgb(210, 210, 210);
+}
+
 .chat {
   background-color: white;
   float: right;
@@ -101,6 +127,9 @@ input[type=text] {
   height: 50px;
   width: 100%;
 }
+.assistance:hover {
+  background-color: rgb(190,190,190);
+}
 
 .dropd {
   position: absolute;
@@ -108,6 +137,13 @@ input[type=text] {
   float: left;
   height: 50px;
   width: 50px;
+}
+
+.dropast:hover .menuast {
+  display: block;
+}
+.menuast:hover {
+  display: block;
 }
 
 .dropdb {
@@ -139,5 +175,13 @@ input[type=text] {
   }
   #chat:hover {
     color:black;
+  }
+
+  .menuast {
+    width: 250px;
+    position: absolute;
+    left: 0px;
+    top: calc(100vh - 462px);
+    display: none;
   }
 }

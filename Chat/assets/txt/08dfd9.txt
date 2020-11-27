@@ -1,0 +1,10 @@
+Asistencia 10/12/2020
+[10/12/2020 - 11:08+]@$%&Buenos días, soy Jose P. de Caja. ¿En que te puedo ayudar el día de hoy?
+[10/12/2020 - 11:09=]@$%&Buenos días, quería solicitar una factura del pago de la última colegiatura, la que se pago iniciando Octubre, por favor.
+[10/12/2020 - 11:09+]@$%&Claro, ya te hemos facturado antes?
+[10/12/2020 - 11:11=]@$%&si
+[10/12/2020 - 11:11+]@$%&Perfecto, me permites tu clave única
+[10/12/2020 - 11:12=]@$%&307495
+[10/12/2020 - 11:16+]@$%&Excelente, la factura te llegara a tu correo a lo largo del día.
+[10/12/2020 - 11:20=]@$%&Muchas gracias.
+[10/12/2020 - 11:21+]@$%&No hay de que.
