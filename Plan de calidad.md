@@ -125,17 +125,9 @@ Los siguientes elementos son necesarios para las pruebas generales en todos los 
 No se requiere capacitación para utilizar el sistema como usuario común, ya que debe ser lo más intuitivo posible. Los moderadores de información deberán entender el reglamento del ITAM como miembros administrativos de la institución para efectuar correctamente el mantenimiento del código de conducta, pero no requerirán de conocimientos técnicos para desempeñar los roles.
 
 ## **15. RESPONSIBILITIES**
-*Who is in charge?*
 
-*This issue includes all areas of the plan.  Here are some examples:*
-
-* Setting risks.
-* Selecting features to be tested and not tested.
-* Setting overall strategy for this level of plan.
-* Ensuring all required elements are in place for testing.
-* Providing for resolution of scheduling conflicts, especially, if testing is done on the production system.
-* Who provides the required training?
-* Who makes the critical go/no go decisions for items not covered in the test plans?
+El sistema debe tener un administrador, que se encargará de verificar que no haya problemas. El principal riesgo que se tiene es la entrada de terceros al sistema, por lo que debe verificarse con mucho cuidado el log in.
+Además, cualquier caso de acoso deberá ser reportado directamente a las autoridades correspondientes.
 
 ## **16. PROGRAMA**
 *Should be based on realistic and validated estimates.  If the estimates for the development of the application are inaccurate, the entire project plan will slip and the testing is part of the overall project plan.*
@@ -180,6 +172,3 @@ No se requiere capacitación para utilizar el sistema como usuario común, ya qu
 
 ## **18. APROBACIONES**
 El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
-
-## **19. GLOSARIO**
-*Used to define terms and acronyms used in the document, and testing in general, to eliminate confusion and promote consistent communications.*
