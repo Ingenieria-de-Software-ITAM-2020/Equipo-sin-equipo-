@@ -104,19 +104,11 @@ El proceso de prueba se completará una vez que el conjunto inicial de pruebas s
 
 ## **11. ENTREGABLES DE PRUEBA**
 
-
-*What is to be delivered as part of this plan?*
-
-* Test plan document.
-* Test cases.
-* Test design specifications.
-* Tools and their outputs.
-* Simulators.
-* Static and dynamic generators.
-* Error logs and execution logs.
-* Problem reports and corrective actions.
-
-*One thing that is not a test deliverable is the software itself that is listed under test items and is delivered by development.*
+* Plan de calidad
+* Vista de las lasas cradas en las pruebas
+* Simulación de un proceso administrativo
+* Pantallas de error
+* Reporte de problemas generales
 
 ## **12. TAREAS DE PRUEBA RESTANTES**
 Se espera que este software sea implementado a los servidores del Instituto Tecnológico Autónomo de México ya contando con una funcionalidad completa, por lo que este plan de calidad se usará para probar la correcta implementación de todos los elementos actualmente considerados para el software, de donde se probará asumiendo que los usuarios no deberán evitar funciones incompletas.
