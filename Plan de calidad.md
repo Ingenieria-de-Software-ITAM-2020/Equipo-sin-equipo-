@@ -1,4 +1,4 @@
-# **TEST PLAN OUTLINE**<br>*(IEEE 829 FORMAT)*
+# **Plan de Calidad**<br>*(IEEE 829 FORMAT)*
 
 ## **TABLA DE CONTENDIOS**
 [**Tabla de Contendios**](https://github.com/Ingenieria-de-Software-ITAM-2020/Equipo-sin-equipo-/blob/main/Plan%20de%20calidad.md#tabla-de-contendios)
@@ -30,26 +30,19 @@
 *You may want to include author and contact information including the revision history information as part of either the identifier section of as part of the introduction.*
 
 ## **2. REFERENCIAS**
-*List all documents that support this test plan. Refer to the actual version/release number of the document as stored in the configuration management system. Do not duplicate the text from other documents as this will reduce the viability of this document and increase the maintenance effort. Documents that can be referenced include:*
-* Project Plan
-* Requirements specifications
-* High Level design document
-* Detail design document
-* Development and Test process standards
-* Methodology guidelines and examples
-* Corporate standards and guidelines
+
+Software Requierments Specification, anexo a este documento.
 
 ## **3. INTRODUCCIÓN**
 Este es el plan maestro de pruebas para el proyecto de chat para alumnos del ITAM. Este plan cubrirá los elementos afectados directa e indirectamente. El objetivo principal es garantizar que la aplicación proporcione un buen sistema de comunicación para los alumnos, ya sea entre ellos o con los maestros o profesores. El plazo estimado para este proyecto es de seis (6) meses. Se espera que la prueba de aceptación tome un (1) mes a partir de la fecha de entrega.
 
 ## **4. ELEMENTOS DE PRUEBA (FUNCIONES)**
-*These are things you intend to test within the scope of this test plan.  Essentially, something you will test, a list of what is to be tested. This can be developed from the software application inventories as well as other sources of documentation and information.*
 
-*This can be controlled and defined by your local Configuration Management (CM) process if you have one.  This information includes version numbers, configuration requirements where needed, (especially if multiple versions of the product are supported).  It may also include key delivery schedule issues for critical elements.*
-
-*Remember, what you are testing is what you intend to deliver to the Client.*
-
-*This section can be oriented to the level of the test plan.  For higher levels it may be by application or functional area, for lower levels it may be by program, unit, module or build.*
+* El acceso con la cuenta del ITAM
+* La creación manual de salas
+* La creación automática de salas
+* Que el menú de asistencia administrativa tenga todas las áreas necesarias
+* La creación de salas con miembros del personal administrativo
 
 ## **5. PROBLEMAS DE RIESGO DE SOFTWARE**
 Hay varias partes del proyecto que no están bajo el control de la aplicación pero que tienen un impacto directo en el proceso y también deben probarse.
@@ -138,11 +131,8 @@ Los siguientes elementos son necesarios para las pruebas generales en todos los 
 * Una cuenta vigente del ITAM.
 
 ## **14. NECESIDADES DE PERSONAL Y CAPACITACIÓN**
-*Training on the application/system.*
 
-*Training for any test tools to be used.*
-
-*Section 4 and Section 15 also affect this section.  What is to be tested and who is responsible for the testing and training.*
+No se requiere capacitación para utilizar el sistema, ya que debe ser lo más intuitivo posible.
 
 ## **15. RESPONSIBILITIES**
 *Who is in charge?*
