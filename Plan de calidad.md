@@ -146,18 +146,12 @@ No se requiere capacitación para utilizar el sistema como usuario común, ya qu
 * Who makes the critical go/no go decisions for items not covered in the test plans?
 
 ## **16. PROGRAMA**
-*Should be based on realistic and validated estimates.  If the estimates for the development of the application are inaccurate, the entire project plan will slip and the testing is part of the overall project plan.*
+Se ha asignado tiempo dentro del plan del proyecto para las siguientes actividades de prueba. La coordinación del personal requerido para cada tarea y equipo de prueba será manejada por el gerente del proyecto en conjunto con los líderes del equipo de desarrollo y prueba.
 
-* As we all know, the first area of a project plan to get cut when it comes to crunch time at the end of a project is the testing.  It usually comes down to the decision, ‘Let’s put something out even if it does not really work all that well’. And, as we all know, this is usually the worst possible decision.
-
-*How slippage in the schedule will to be handled should also be addressed here.*
-
-* If the users know in advance that a slippage in the development will cause a slippage in the test and the overall delivery of the system, they just may be a little more tolerant, if they know it’s in their interest to get a better tested application.
-* By spelling out the effects here you have a chance to discuss them in advance of their actual occurrence. You may even get the users to agree to a few defects in advance, if the schedule slips.
-
-*At this point, all relevant milestones should be identified with their relationship to the development process identified.  This will also help in identifying and tracking potential slippage in the schedule caused by the test process.*
-
-*It is always best to tie all test dates directly to their related development activity dates.  This prevents the test team from being perceived as the cause of a delay.  For example, if system testing is to begin after delivery of the final build, then system testing begins the day after delivery.  If the delivery is late, system testing starts from the day of delivery, not on a specific date.  This is called dependent or relative dating.*
+* Revisión de los requisitos por parte del personal del equipo de prueba.
+* Desarrollo del plan maestro de pruebas por el gerente de pruebas.
+* Revisón del plan de prueba por parte de todo el equipo.
+* Tiempo asignado para los procesos de prueba de Sistema / Integración y Aceptación.
 
 ## **17. PLANIFICACIÓN DE RIESGOS Y CONTINGENCIAS**
 *What are the overall risks to the project with an emphasis on the testing process?*
