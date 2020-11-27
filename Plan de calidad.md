@@ -103,6 +103,8 @@ El proceso de prueba se completará una vez que el conjunto inicial de pruebas s
 * Fallas en la seguridad de la aplicación. En el caso de encontrarse una brecha en la seguridad de la aplicación se procedera a repararla  a la brevedad, antes de resumir el proceso.
 
 ## **11. ENTREGABLES DE PRUEBA**
+
+
 *What is to be delivered as part of this plan?*
 
 * Test plan document.
@@ -128,7 +130,7 @@ Los siguientes elementos son necesarios para las pruebas generales en todos los 
 
 ## **14. NECESIDADES DE PERSONAL Y CAPACITACIÓN**
 
-No se requiere capacitación para utilizar el sistema, ya que debe ser lo más intuitivo posible.
+No se requiere capacitación para utilizar el sistema como usuario común, ya que debe ser lo más intuitivo posible. Los moderadores de información deberán entender el reglamento del ITAM como miembros administrativos de la institución para efectuar correctamente el mantenimiento del código de conducta, pero no requerirán de conocimientos técnicos para desempeñar los roles.
 
 ## **15. RESPONSIBILITIES**
 *Who is in charge?*
@@ -185,18 +187,7 @@ No se requiere capacitación para utilizar el sistema, ya que debe ser lo más i
 *The important thing to remember is that, if you do nothing at all, the usual result is that testing is cut back or omitted completely, neither of which should be an acceptable option.*
 
 ## **18. APROBACIONES**
-
-*Who can approve the process as complete and allow the project to proceed to the next level (depending on the level of the plan)?*
-
-*At the master test plan level, this may be all involved parties.*
-
-*When determining the approval process, keep in mind who the audience is.*
-
-*  The audience for a unit test level plan is different than that of an integration, system or master level plan.
-*  The levels and type of knowledge at the various levels will be different as well.
-*  Programmers are very technical but may not have a clear understanding of the overall business process driving the project.
-*  Users may have varying levels of business acumen and very little technical skills.
-*  Always be wary of users who claim high levels of technical skills and programmers that claim to fully understand the business process. These types of individuals can cause more harm than good if they do not have the skills they believe they possess.
+El coordinador del proyecto deberá verificar con la administración de la institución, particularmente con el director del departamento de computación, que las todas funcionalidades esten implementadas correctamente y sean utilizables en acuerdo con este plan de calidad, para que se pueda implementar el software en los servidores del ITAM.
 
 ## **19. GLOSARIO**
 *Used to define terms and acronyms used in the document, and testing in general, to eliminate confusion and promote consistent communications.*
