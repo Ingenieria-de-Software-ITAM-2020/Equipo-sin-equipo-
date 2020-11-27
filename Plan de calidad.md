@@ -117,11 +117,7 @@ El proceso de prueba se completará una vez que el conjunto inicial de pruebas s
 *One thing that is not a test deliverable is the software itself that is listed under test items and is delivered by development.*
 
 ## **12. TAREAS DE PRUEBA RESTANTES**
-*If this is a multi-phase process or if the application is to be released in increments there may be parts of the application that this plan does not address.  These areas need to be identified to avoid any confusion should defects be reported back on those future functions.  This will also allow the users and testers to avoid incomplete functions and prevent waste of resources chasing non-defects.*
-
-*If the project is being developed as a multi-party process, this plan may only cover a portion of the total functions/features. This status needs to be identified so that those other areas have plans developed for them and to avoid wasting resources tracking defects that do not relate to this plan.*
-
-*When a third party is developing the software, this section may contain descriptions of those test tasks belonging to both the internal groups and the external groups.*
+Se espera que este software sea implementado a los servidores del Instituto Tecnológico Autónomo de México ya contando con una funcionalidad completa, por lo que este plan de calidad se usará para probar la correcta implementación de todos los elementos actualmente considerados para el software, de donde se probará asumiendo que los usuarios no deberán evitar funciones incompletas.
 
 
 ## **13. NECESIDADES DEL ENTORNO**
