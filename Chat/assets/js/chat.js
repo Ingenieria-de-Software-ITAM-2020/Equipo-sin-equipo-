@@ -50,6 +50,7 @@ function textEnter() {
   text.style.backgroundColor = "rgb(80,220,100)";
   text.style.cssFloat = "right";
   text.innerHTML = document.getElementById("text").value;
+  document.getElementById("text").value = "";
 
   t.appendChild(text);
   d.appendChild(date);
